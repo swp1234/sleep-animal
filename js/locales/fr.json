@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Test Animal du Sommeil | Quel est votre chronotype? - DopaBrain",
+    "description": "Découvrez votre chronotype de sommeil en 10 questions. Ours, Lion, Loup ou Dauphin — quel est votre animal du sommeil?"
+  },
+  "accessibility": {
+    "skipMain": "Aller au contenu principal"
+  },
+  "app": {
+    "title": "Animal du Sommeil",
+    "subtitle": "Sleep Chronotype Quiz",
+    "heroTitle": "Quel est votre animal du sommeil?"
+  },
+  "intro": {
+    "desc": "Répondez à 10 questions pour découvrir votre chronotype de sommeil. Obtenez votre emploi du temps idéal, vos fenêtres de productivité et des conseils personnalisés!",
+    "chip1": "10 Questions",
+    "chip2": "~2 Minutes",
+    "chip3": "4 Types",
+    "disclaimer": "Ce test est uniquement à des fins de divertissement et ne constitue pas un diagnostic médical.",
+    "start": "Commencer le Test"
+  },
+  "animals": {
+    "bear": "Ours",
+    "lion": "Lion",
+    "wolf": "Loup",
+    "dolphin": "Dauphin"
+  },
+  "animalIntro": {
+    "bear": "Dormeur stable suivant le cycle solaire",
+    "lion": "Lève-tôt puissant du matin",
+    "wolf": "Hibou créatif nocturne",
+    "dolphin": "Cerveau perfectionniste au sommeil léger"
+  },
+  "quiz": {
+    "prev": "Précédent",
+    "next": "Suivant",
+    "finish": "Voir les Résultats",
+    "progress": "Progression"
+  },
+  "q1": {
+    "text": "À quelle heure ressentez-vous naturellement le sommeil?",
+    "a": "22h – 23h",
+    "b": "21h – 22h",
+    "c": "Après minuit",
+    "d": "Irrégulier (différent chaque jour)"
+  },
+  "q2": {
+    "text": "Sans réveil, à quelle heure vous réveillez-vous?",
+    "a": "7h – 8h",
+    "b": "5h – 6h",
+    "c": "Après 9h",
+    "d": "Je me réveille plusieurs fois et me rendors"
+  },
+  "q3": {
+    "text": "Quand vous sentez-vous le plus énergique?",
+    "a": "10h – 14h",
+    "b": "Tôt le matin (6h – 10h)",
+    "c": "Soirée à nuit (après 18h)",
+    "d": "Pics d'énergie imprévisibles"
+  },
+  "q4": {
+    "text": "Pour un examen important, quand étudieriez-vous?",
+    "a": "Régulièrement le matin",
+    "b": "Se lever tôt et tout faire",
+    "c": "Tard le soir en concentration profonde",
+    "d": "À la dernière minute, tout d'un coup"
+  },
+  "q5": {
+    "text": "Comment passeriez-vous un week-end libre?",
+    "a": "Brunch tranquille avec des amis",
+    "b": "Sport matinal puis tâches productives",
+    "c": "Grasse matinée, sortie le soir",
+    "d": "Pas de plans, selon l'humeur"
+  },
+  "q6": {
+    "text": "Comment décrivez-vous la qualité de votre sommeil?",
+    "a": "Je dors généralement bien",
+    "b": "Je m'endors vite et me réveille en forme",
+    "c": "Je me couche tard mais dors profondément",
+    "d": "Je me réveille souvent, sommeil léger"
+  },
+  "q7": {
+    "text": "Votre moment idéal pour le sport?",
+    "a": "Autour de midi",
+    "b": "Tôt le matin",
+    "c": "En fin de journée",
+    "d": "Quand l'envie me prend"
+  },
+  "q8": {
+    "text": "Quand prenez-vous habituellement de la caféine?",
+    "a": "Une tasse le matin",
+    "b": "Rarement ou très tôt le matin",
+    "c": "L'après-midi au soir",
+    "d": "Plusieurs tasses tout au long de la journée"
+  },
+  "q9": {
+    "text": "Votre rôle dans un projet de groupe?",
+    "a": "Coordinateur – maintient l'harmonie",
+    "b": "Leader – planifie et exécute rapidement",
+    "c": "Créatif – solutions originales",
+    "d": "Analyste – vérifie et améliore soigneusement"
+  },
+  "q10": {
+    "text": "Quelle phrase vous correspond le mieux?",
+    "a": "Une routine régulière est la base de la santé",
+    "b": "L'avenir appartient à ceux qui se lèvent tôt",
+    "c": "Plus la nuit est profonde, meilleures sont les idées",
+    "d": "Mon cerveau ne s'arrête jamais"
+  },
+  "results": {
+    "yourType": "Votre Animal du Sommeil",
+    "percentage": "Environ {pct}% des gens partagent ce type",
+    "traits": "Traits Principaux",
+    "sleepTips": "Conseils Sommeil",
+    "idealSchedule": "Emploi du Temps Idéal",
+    "bear": {
+      "name": "Ours",
+      "emoji": "🐻",
+      "description": "Vous suivez naturellement le cycle solaire. Avec un rythme stable et régulier, vous êtes le plus productif en milieu de matinée. Social, fiable et excellent coéquipier.",
+      "pct": "55",
+      "traits": ["Rythme de sommeil stable", "Productivité maximale en milieu de matinée", "Social et bon esprit d'équipe", "Préfère les routines régulières", "Niveaux d'énergie équilibrés"],
+      "sleepTips": ["Se coucher et se lever à la même heure chaque jour", "15 minutes de soleil matinal", "Siestes de 20 minutes maximum", "Réduire les écrans 2h avant le coucher", "Dîner léger"],
+      "idealSchedule": {
+        "wake": "7h00 – Réveil",
+        "peak": "10h00 – 14h00 – Travail profond",
+        "exercise": "12h00 – 13h00 – Sport",
+        "wind": "21h30 – Détente",
+        "sleep": "23h00 – Sommeil"
+      }
+    },
+    "lion": {
+      "name": "Lion",
+      "emoji": "🦁",
+      "description": "Vous êtes le roi du matin! Plein d'énergie dès l'aube, productivité maximale avant midi. Orienté objectifs et optimiste, vous êtes un leader né.",
+      "pct": "15",
+      "traits": ["Super lève-tôt", "Productivité maximale avant midi", "Discipliné et orienté objectifs", "Type leader optimiste", "Fatigué tôt le soir"],
+      "sleepTips": ["Éviter les lumières vives après 21h", "Zéro caféine après midi", "Créer une routine matinale consciente", "Ne pas se forcer pour les sorties nocturnes", "Garder les horaires de sommeil le week-end"],
+      "idealSchedule": {
+        "wake": "5h30 – Réveil",
+        "peak": "6h00 – 12h00 – Travail profond",
+        "exercise": "5h30 – 6h30 – Sport",
+        "wind": "20h30 – Détente",
+        "sleep": "22h00 – Sommeil"
+      }
+    },
+    "wolf": {
+      "name": "Loup",
+      "emoji": "🐺",
+      "description": "Vous êtes un hibou créatif qui s'éveille après le coucher du soleil! Votre énergie et créativité culminent le soir. Penseur non-conformiste. Les matins sont difficiles, mais les nuits sont votre royaume.",
+      "pct": "15",
+      "traits": ["Pic d'énergie le soir-nuit", "Très créatif et intuitif", "Penseur non-conventionnel", "Les matins sont difficiles", "Émotionnel et introspectif"],
+      "sleepTips": ["S'exposer à la lumière vive le matin", "Essayer de se coucher avant minuit", "Promenade légère après le dîner", "Méditation ou lecture avant de dormir", "Douche froide le matin pour se réveiller"],
+      "idealSchedule": {
+        "wake": "7h30 – Réveil",
+        "peak": "17h00 – 0h00 – Travail profond",
+        "exercise": "18h00 – 19h00 – Sport",
+        "wind": "0h00 – Détente",
+        "sleep": "0h30 – Sommeil"
+      }
+    },
+    "dolphin": {
+      "name": "Dauphin",
+      "emoji": "🐬",
+      "description": "Vous avez un sommeil léger et un esprit brillant. Perfectionniste de nature, votre cerveau est toujours actif. Vos habitudes de sommeil peuvent être irrégulières, mais concentré, vos résultats sont extraordinaires.",
+      "pct": "10",
+      "traits": ["Sommeil léger et sensible", "Intelligence et analyse élevées", "Tendances perfectionnistes", "Habitudes de sommeil irrégulières", "Tendance à trop réfléchir et s'inquiéter"],
+      "sleepTips": ["Écrire un journal de soucis avant de dormir", "Construire une routine de coucher constante", "Chambre fraîche et sombre", "Utiliser du bruit blanc ou ASMR", "Limiter la caféine au matin uniquement"],
+      "idealSchedule": {
+        "wake": "6h30 – Réveil",
+        "peak": "10h00 – 12h00 – Travail profond",
+        "exercise": "7h00 – 8h00 – Sport",
+        "wind": "22h00 – Détente",
+        "sleep": "23h30 – Sommeil"
+      }
+    }
+  },
+  "share": {
+    "title": "Partager",
+    "twitterText": "Mon animal du sommeil est {animal}{emoji}! Seulement {pct}% des gens sont de ce type 🌙",
+    "copy": "Copier le Lien",
+    "copied": "Copié!",
+    "result": "Mon Animal du Sommeil: {animal}{emoji}"
+  },
+  "result": {
+    "retry": "Refaire le Test"
+  },
+  "theme": {
+    "toggle": "Changer de thème"
+  }
+}

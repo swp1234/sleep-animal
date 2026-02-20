@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Tes Hewan Tidur | Apa Kronotipe Tidurmu? - DopaBrain",
+    "description": "Temukan kronotipe tidurmu dengan 10 pertanyaan. Beruang, Singa, Serigala, atau Lumba-Lumba? Dapatkan jadwal tidur idealmu!"
+  },
+  "accessibility": {
+    "skipMain": "Langsung ke konten utama"
+  },
+  "app": {
+    "title": "Tes Hewan Tidur",
+    "subtitle": "Sleep Chronotype Quiz",
+    "heroTitle": "Apa hewan tidurmu?"
+  },
+  "intro": {
+    "desc": "Jawab 10 pertanyaan untuk mengetahui kronotipe tidurmu. Dapatkan jadwal tidur ideal, waktu produktif, dan tips personal!",
+    "chip1": "10 Pertanyaan",
+    "chip2": "~2 Menit",
+    "chip3": "4 Tipe",
+    "disclaimer": "Tes ini hanya untuk hiburan dan bukan diagnosis medis.",
+    "start": "Mulai Tes"
+  },
+  "animals": {
+    "bear": "Beruang",
+    "lion": "Singa",
+    "wolf": "Serigala",
+    "dolphin": "Lumba-Lumba"
+  },
+  "animalIntro": {
+    "bear": "Tidur stabil mengikuti siklus matahari",
+    "lion": "Si pagi yang penuh semangat",
+    "wolf": "Burung hantu kreatif malam hari",
+    "dolphin": "Otak perfeksionis tidur ringan"
+  },
+  "quiz": {
+    "prev": "Sebelumnya",
+    "next": "Selanjutnya",
+    "finish": "Lihat Hasil",
+    "progress": "Progres"
+  },
+  "q1": {
+    "text": "Kapan kamu secara alami merasa mengantuk?",
+    "a": "Jam 10 – 11 malam",
+    "b": "Jam 9 – 10 malam",
+    "c": "Setelah tengah malam",
+    "d": "Tidak teratur (beda setiap hari)"
+  },
+  "q2": {
+    "text": "Tanpa alarm, jam berapa kamu bangun?",
+    "a": "Jam 7 – 8 pagi",
+    "b": "Jam 5 – 6 pagi",
+    "c": "Setelah jam 9 pagi",
+    "d": "Bangun berkali-kali lalu tidur lagi"
+  },
+  "q3": {
+    "text": "Kapan kamu merasa paling berenergi?",
+    "a": "Jam 10 pagi – 2 siang",
+    "b": "Pagi-pagi (6 – 10 pagi)",
+    "c": "Sore sampai malam (setelah jam 6 sore)",
+    "d": "Ledakan energi tak terduga"
+  },
+  "q4": {
+    "text": "Jika ada ujian penting, kapan kamu akan belajar?",
+    "a": "Stabil sepanjang pagi",
+    "b": "Bangun pagi dan selesaikan",
+    "c": "Larut malam dengan fokus mendalam",
+    "d": "Menit terakhir, sekaligus"
+  },
+  "q5": {
+    "text": "Bagaimana kamu menghabiskan akhir pekan bebas?",
+    "a": "Brunch santai bersama teman",
+    "b": "Olahraga pagi lalu kegiatan produktif",
+    "c": "Tidur siang, keluar malam",
+    "d": "Tanpa rencana, ikuti suasana hati"
+  },
+  "q6": {
+    "text": "Bagaimana kualitas tidurmu?",
+    "a": "Umumnya tidur nyenyak",
+    "b": "Cepat tidur dan bangun segar",
+    "c": "Tidur larut tapi nyenyak",
+    "d": "Sering terbangun, tidur ringan"
+  },
+  "q7": {
+    "text": "Waktu ideal untuk olahraga?",
+    "a": "Sekitar siang hari",
+    "b": "Pagi-pagi sekali",
+    "c": "Setelah sore",
+    "d": "Kapan saja mood datang"
+  },
+  "q8": {
+    "text": "Kapan biasanya kamu minum kafein?",
+    "a": "Satu cangkir di pagi hari",
+    "b": "Jarang atau pagi-pagi sekali",
+    "c": "Sore sampai malam",
+    "d": "Beberapa cangkir sepanjang hari"
+  },
+  "q9": {
+    "text": "Dalam proyek kelompok, apa peranmu?",
+    "a": "Koordinator – menjaga harmoni tim",
+    "b": "Pemimpin – merencanakan dan mengeksekusi cepat",
+    "c": "Generator ide – solusi unik",
+    "d": "Analis – meninjau dan menyempurnakan dengan teliti"
+  },
+  "q10": {
+    "text": "Pernyataan mana yang paling kamu rasakan?",
+    "a": "Rutinitas teratur adalah dasar kesehatan",
+    "b": "Siapa cepat dia dapat",
+    "c": "Semakin larut malam, semakin banyak inspirasi",
+    "d": "Otakku tidak pernah berhenti bekerja"
+  },
+  "results": {
+    "yourType": "Hewan Tidurmu",
+    "percentage": "Sekitar {pct}% orang memiliki tipe ini",
+    "traits": "Sifat Utama",
+    "sleepTips": "Tips Tidur",
+    "idealSchedule": "Jadwal Harian Ideal",
+    "bear": {
+      "name": "Beruang",
+      "emoji": "🐻",
+      "description": "Kamu mengikuti siklus matahari secara alami. Dengan ritme yang stabil dan konsisten, kamu paling produktif di pertengahan pagi. Sosial, andal, dan pemain tim yang hebat.",
+      "pct": "55",
+      "traits": ["Pola tidur stabil", "Produktivitas puncak di pertengahan pagi", "Sosial dan ramah tim", "Suka rutinitas teratur", "Level energi seimbang"],
+      "sleepTips": ["Tidur dan bangun di waktu yang sama setiap hari", "Berjemur 15 menit di pagi hari", "Tidur siang maksimal 20 menit", "Kurangi layar 2 jam sebelum tidur", "Makan malam ringan"],
+      "idealSchedule": {
+        "wake": "07:00 – Bangun",
+        "peak": "10:00 – 14:00 – Kerja mendalam",
+        "exercise": "12:00 – 13:00 – Olahraga",
+        "wind": "21:30 – Relaksasi",
+        "sleep": "23:00 – Tidur"
+      }
+    },
+    "lion": {
+      "name": "Singa",
+      "emoji": "🦁",
+      "description": "Kamu raja pagi! Penuh energi sejak fajar, produktivitas puncak sebelum siang. Berorientasi tujuan dan optimis, kamu pemimpin alami.",
+      "pct": "15",
+      "traits": ["Bangun super pagi", "Produktivitas puncak sebelum siang", "Disiplin dan berorientasi tujuan", "Tipe pemimpin optimis", "Lelah lebih awal di malam hari"],
+      "sleepTips": ["Hindari cahaya terang setelah jam 9 malam", "Tanpa kafein setelah siang", "Buat rutinitas pagi yang sadar", "Jangan paksa bersosialisasi malam", "Jaga jadwal tidur di akhir pekan"],
+      "idealSchedule": {
+        "wake": "05:30 – Bangun",
+        "peak": "06:00 – 12:00 – Kerja mendalam",
+        "exercise": "05:30 – 06:30 – Olahraga",
+        "wind": "20:30 – Relaksasi",
+        "sleep": "22:00 – Tidur"
+      }
+    },
+    "wolf": {
+      "name": "Serigala",
+      "emoji": "🐺",
+      "description": "Kamu burung hantu kreatif yang hidup setelah matahari terbenam! Energi dan kreativitas puncak di malam hari. Berpikir di luar kotak. Pagi sulit, tapi malam adalah kerajaanmu.",
+      "pct": "15",
+      "traits": ["Ledakan energi malam hari", "Sangat kreatif dan intuitif", "Pemikir non-konvensional", "Pagi sulit banget", "Emosional dan introspektif"],
+      "sleepTips": ["Terpapar cahaya terang di pagi hari", "Usahakan tidur sebelum tengah malam", "Jalan-jalan ringan setelah makan malam", "Meditasi atau membaca sebelum tidur", "Mandi air dingin pagi untuk melek"],
+      "idealSchedule": {
+        "wake": "07:30 – Bangun",
+        "peak": "17:00 – 00:00 – Kerja mendalam",
+        "exercise": "18:00 – 19:00 – Olahraga",
+        "wind": "00:00 – Relaksasi",
+        "sleep": "00:30 – Tidur"
+      }
+    },
+    "dolphin": {
+      "name": "Lumba-Lumba",
+      "emoji": "🐬",
+      "description": "Kamu tidur ringan dengan otak brilian. Perfeksionis secara alami, otakmu selalu aktif. Pola tidur mungkin tidak teratur, tapi saat fokus, hasilnya luar biasa.",
+      "pct": "10",
+      "traits": ["Tidur ringan dan sensitif", "Kecerdasan dan analisis tinggi", "Kecenderungan perfeksionis", "Pola tidur tidak teratur", "Sering overthinking dan khawatir"],
+      "sleepTips": ["Tulis jurnal kekhawatiran sebelum tidur", "Bangun rutinitas tidur yang konsisten", "Jaga kamar tidur sejuk dan gelap", "Gunakan white noise atau ASMR", "Batasi kafein hanya di pagi"],
+      "idealSchedule": {
+        "wake": "06:30 – Bangun",
+        "peak": "10:00 – 12:00 – Kerja mendalam",
+        "exercise": "07:00 – 08:00 – Olahraga",
+        "wind": "22:00 – Relaksasi",
+        "sleep": "23:30 – Tidur"
+      }
+    }
+  },
+  "share": {
+    "title": "Bagikan",
+    "twitterText": "Hewan tidurku adalah {animal}{emoji}! Hanya {pct}% orang bertipe ini 🌙",
+    "copy": "Salin Link",
+    "copied": "Tersalin!",
+    "result": "Hewan Tidurku: {animal}{emoji}"
+  },
+  "result": {
+    "retry": "Tes Lagi"
+  },
+  "theme": {
+    "toggle": "Ganti tema"
+  }
+}

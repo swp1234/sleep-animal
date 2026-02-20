@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Schlaftier-Test | Was ist dein Chronotyp? - DopaBrain",
+    "description": "Entdecke deinen Schlaf-Chronotyp mit 10 Fragen. Bär, Löwe, Wolf oder Delfin — welches Schlaftier bist du?"
+  },
+  "accessibility": {
+    "skipMain": "Zum Hauptinhalt springen"
+  },
+  "app": {
+    "title": "Schlaftier-Test",
+    "subtitle": "Sleep Chronotype Quiz",
+    "heroTitle": "Welches Schlaftier bist du?"
+  },
+  "intro": {
+    "desc": "Beantworte 10 Fragen und entdecke deinen Schlaf-Chronotyp. Erhalte deinen idealen Schlafplan, Produktivitätsfenster und persönliche Tipps!",
+    "chip1": "10 Fragen",
+    "chip2": "~2 Minuten",
+    "chip3": "4 Typen",
+    "disclaimer": "Dieser Test dient nur der Unterhaltung und ist keine medizinische Diagnose.",
+    "start": "Test starten"
+  },
+  "animals": {
+    "bear": "Bär",
+    "lion": "Löwe",
+    "wolf": "Wolf",
+    "dolphin": "Delfin"
+  },
+  "animalIntro": {
+    "bear": "Stabiler Schläfer im Sonnenzyklus",
+    "lion": "Frühaufsteher-Kraftpaket",
+    "wolf": "Kreative Nachteule",
+    "dolphin": "Leichtschläfer-Perfektionist"
+  },
+  "quiz": {
+    "prev": "Zurück",
+    "next": "Weiter",
+    "finish": "Ergebnisse ansehen",
+    "progress": "Fortschritt"
+  },
+  "q1": {
+    "text": "Wann wirst du natürlicherweise müde?",
+    "a": "22:00 – 23:00 Uhr",
+    "b": "21:00 – 22:00 Uhr",
+    "c": "Nach Mitternacht",
+    "d": "Unregelmäßig (jeden Tag anders)"
+  },
+  "q2": {
+    "text": "Ohne Wecker, wann wachst du auf?",
+    "a": "7:00 – 8:00 Uhr",
+    "b": "5:00 – 6:00 Uhr",
+    "c": "Nach 9:00 Uhr",
+    "d": "Wache mehrmals auf und schlafe wieder ein"
+  },
+  "q3": {
+    "text": "Wann fühlst du dich am energiegeladensten?",
+    "a": "10:00 – 14:00 Uhr",
+    "b": "Früher Morgen (6 – 10 Uhr)",
+    "c": "Abend bis Nacht (nach 18 Uhr)",
+    "d": "Unvorhersehbare Energieschübe"
+  },
+  "q4": {
+    "text": "Wenn du eine wichtige Prüfung hättest, wann würdest du lernen?",
+    "a": "Gleichmäßig am Morgen",
+    "b": "Früh aufstehen und erledigen",
+    "c": "Spät nachts mit tiefem Fokus",
+    "d": "In letzter Minute alles auf einmal"
+  },
+  "q5": {
+    "text": "Wie verbringst du ein freies Wochenende?",
+    "a": "Gemütliches Brunch mit Freunden",
+    "b": "Morgensport und produktive Aufgaben",
+    "c": "Ausschlafen, abends ausgehen",
+    "d": "Keine Pläne, nach Stimmung"
+  },
+  "q6": {
+    "text": "Wie beschreibst du deine Schlafqualität?",
+    "a": "Schlafe generell gut",
+    "b": "Schlafe schnell ein, wache erfrischt auf",
+    "c": "Schlafe spät aber tief",
+    "d": "Wache oft auf, leichter Schlaf"
+  },
+  "q7": {
+    "text": "Deine ideale Trainingszeit?",
+    "a": "Um die Mittagszeit",
+    "b": "Früher Morgen",
+    "c": "Nach dem Abend",
+    "d": "Wenn mir danach ist"
+  },
+  "q8": {
+    "text": "Wann trinkst du normalerweise Koffein?",
+    "a": "Eine Tasse am Morgen",
+    "b": "Selten oder sehr früh morgens",
+    "c": "Nachmittag bis Abend",
+    "d": "Mehrere Tassen über den Tag"
+  },
+  "q9": {
+    "text": "Deine Rolle im Gruppenprojekt?",
+    "a": "Koordinator – bewahrt Teamharmonie",
+    "b": "Anführer – plant und handelt schnell",
+    "c": "Ideengeber – einzigartige Lösungen",
+    "d": "Analyst – prüft und verbessert sorgfältig"
+  },
+  "q10": {
+    "text": "Welche Aussage passt am besten zu dir?",
+    "a": "Ein regelmäßiger Rhythmus ist die Basis der Gesundheit",
+    "b": "Morgenstund hat Gold im Mund",
+    "c": "Je tiefer die Nacht, desto besser die Ideen",
+    "d": "Mein Kopf hört nie auf zu arbeiten"
+  },
+  "results": {
+    "yourType": "Dein Schlaftier",
+    "percentage": "Etwa {pct}% der Menschen teilen diesen Typ",
+    "traits": "Hauptmerkmale",
+    "sleepTips": "Schlaftipps",
+    "idealSchedule": "Idealer Tagesablauf",
+    "bear": {
+      "name": "Bär",
+      "emoji": "🐻",
+      "description": "Du folgst natürlich dem Sonnenzyklus. Mit einem stabilen und konsistenten Rhythmus bist du vormittags am produktivsten. Sozial, zuverlässig und ein großartiger Teamplayer.",
+      "pct": "55",
+      "traits": ["Stabiles Schlafmuster", "Höchste Produktivität am Vormittag", "Sozial und teamfreundlich", "Bevorzugt regelmäßige Routinen", "Ausgeglichene Energielevel"],
+      "sleepTips": ["Jeden Tag zur gleichen Zeit schlafen und aufstehen", "15 Minuten Morgensonne", "Mittagsschlaf maximal 20 Minuten", "Bildschirmzeit 2 Stunden vor dem Schlafengehen reduzieren", "Leichtes Abendessen"],
+      "idealSchedule": {
+        "wake": "7:00 – Aufwachen",
+        "peak": "10:00 – 14:00 – Tiefenarbeit",
+        "exercise": "12:00 – 13:00 – Sport",
+        "wind": "21:30 – Entspannung",
+        "sleep": "23:00 – Schlafen"
+      }
+    },
+    "lion": {
+      "name": "Löwe",
+      "emoji": "🦁",
+      "description": "Du bist der König des Morgens! Voller Energie ab Morgengrauen, Produktivitätsspitze vor Mittag. Zielorientiert und optimistisch — ein geborener Anführer.",
+      "pct": "15",
+      "traits": ["Super-Frühaufsteher", "Produktivitätsspitze vor Mittag", "Diszipliniert und zielorientiert", "Optimistischer Führungstyp", "Wird abends früh müde"],
+      "sleepTips": ["Nach 21 Uhr helles Licht vermeiden", "Kein Koffein nach Mittag", "Bewusste Morgenroutine aufbauen", "Nachtleben nicht erzwingen", "Schlafzeiten am Wochenende beibehalten"],
+      "idealSchedule": {
+        "wake": "5:30 – Aufwachen",
+        "peak": "6:00 – 12:00 – Tiefenarbeit",
+        "exercise": "5:30 – 6:30 – Sport",
+        "wind": "20:30 – Entspannung",
+        "sleep": "22:00 – Schlafen"
+      }
+    },
+    "wolf": {
+      "name": "Wolf",
+      "emoji": "🐺",
+      "description": "Du bist eine kreative Nachteule, die nach Sonnenuntergang aufblüht! Energie und Kreativität erreichen abends ihren Höhepunkt. Du denkst außerhalb der Box.",
+      "pct": "15",
+      "traits": ["Abend-Nacht-Energieschub", "Hochkreativ und intuitiv", "Unkonventioneller Denker", "Morgens schwer aufzustehen", "Emotional und introspektiv"],
+      "sleepTips": ["Morgens helles Licht tanken", "Versuche vor Mitternacht zu schlafen", "Leichter Spaziergang nach dem Abendessen", "Meditation oder Lesen vor dem Schlafen", "Kalte Dusche am Morgen zum Wachwerden"],
+      "idealSchedule": {
+        "wake": "7:30 – Aufwachen",
+        "peak": "17:00 – 0:00 – Tiefenarbeit",
+        "exercise": "18:00 – 19:00 – Sport",
+        "wind": "0:00 – Entspannung",
+        "sleep": "0:30 – Schlafen"
+      }
+    },
+    "dolphin": {
+      "name": "Delfin",
+      "emoji": "🐬",
+      "description": "Du bist ein Leichtschläfer mit brillantem Verstand. Von Natur aus Perfektionist, dein Gehirn ist immer aktiv. Dein Schlafmuster mag unregelmäßig sein, aber bei Konzentration lieferst du außergewöhnliche Ergebnisse.",
+      "pct": "10",
+      "traits": ["Leichter, empfindlicher Schlaf", "Hohe Intelligenz und Analytik", "Perfektionistische Tendenzen", "Unregelmäßiges Schlafmuster", "Neigt zum Überdenken und Sorgen"],
+      "sleepTips": ["Sorgen-Tagebuch vor dem Schlafen schreiben", "Konstante Schlafenszeit-Routine aufbauen", "Schlafzimmer kühl und dunkel halten", "Weißes Rauschen oder ASMR nutzen", "Koffein nur vormittags"],
+      "idealSchedule": {
+        "wake": "6:30 – Aufwachen",
+        "peak": "10:00 – 12:00 – Tiefenarbeit",
+        "exercise": "7:00 – 8:00 – Sport",
+        "wind": "22:00 – Entspannung",
+        "sleep": "23:30 – Schlafen"
+      }
+    }
+  },
+  "share": {
+    "title": "Teilen",
+    "twitterText": "Mein Schlaftier ist {animal}{emoji}! Nur {pct}% der Menschen sind dieser Typ 🌙",
+    "copy": "Link kopieren",
+    "copied": "Kopiert!",
+    "result": "Mein Schlaftier: {animal}{emoji}"
+  },
+  "result": {
+    "retry": "Nochmal testen"
+  },
+  "theme": {
+    "toggle": "Design wechseln"
+  }
+}

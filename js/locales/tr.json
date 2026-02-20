@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Uyku Hayvanı Testi | Kronotipiniz Ne? - DopaBrain",
+    "description": "10 soruyla uyku kronotipi keşfedin. Ayı, Aslan, Kurt veya Yunus — uyku hayvanınız hangisi?"
+  },
+  "accessibility": {
+    "skipMain": "Ana içeriğe atla"
+  },
+  "app": {
+    "title": "Uyku Hayvanı Testi",
+    "subtitle": "Sleep Chronotype Quiz",
+    "heroTitle": "Uyku hayvanınız ne?"
+  },
+  "intro": {
+    "desc": "10 soruyu cevaplayarak uyku kronotipinizi keşfedin. İdeal uyku programınızı, üretkenlik pencerelerinizi ve kişisel ipuçlarını alın!",
+    "chip1": "10 Soru",
+    "chip2": "~2 Dakika",
+    "chip3": "4 Tip",
+    "disclaimer": "Bu test yalnızca eğlence amaçlıdır, tıbbi teşhis değildir.",
+    "start": "Teste Başla"
+  },
+  "animals": {
+    "bear": "Ayı",
+    "lion": "Aslan",
+    "wolf": "Kurt",
+    "dolphin": "Yunus"
+  },
+  "animalIntro": {
+    "bear": "Güneş döngüsünü takip eden istikrarlı uyuyan",
+    "lion": "Erken kalkan sabah güç merkezi",
+    "wolf": "Gece parlayan yaratıcı baykuş",
+    "dolphin": "Hafif uyuyan mükemmeliyetçi beyin"
+  },
+  "quiz": {
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "finish": "Sonuçları Gör",
+    "progress": "İlerleme"
+  },
+  "q1": {
+    "text": "Doğal olarak ne zaman uykunuz gelir?",
+    "a": "Gece 22:00 – 23:00",
+    "b": "Gece 21:00 – 22:00",
+    "c": "Gece yarısından sonra",
+    "d": "Düzensiz (her gün farklı)"
+  },
+  "q2": {
+    "text": "Alarmsız kaçta uyanırsınız?",
+    "a": "Sabah 7 – 8",
+    "b": "Sabah 5 – 6",
+    "c": "Sabah 9'dan sonra",
+    "d": "Birkaç kez uyanır tekrar uyurum"
+  },
+  "q3": {
+    "text": "Gün içinde en enerjik olduğunuz zaman?",
+    "a": "10:00 – 14:00",
+    "b": "Erken sabah (6 – 10)",
+    "c": "Akşam-gece (18:00'den sonra)",
+    "d": "Tahmin edilemez enerji patlamaları"
+  },
+  "q4": {
+    "text": "Önemli bir sınavınız olsa ne zaman hazırlanırsınız?",
+    "a": "Sabah boyunca istikrarlı",
+    "b": "Erken kalkıp halledeyim",
+    "c": "Gece geç saatte derin odakla",
+    "d": "Son dakikada hepsini birden"
+  },
+  "q5": {
+    "text": "Serbest bir hafta sonunu nasıl geçirirsiniz?",
+    "a": "Arkadaşlarla rahat brunch",
+    "b": "Sabah egzersizi sonra verimli işler",
+    "c": "Geç yat, gece dışarı çık",
+    "d": "Plan yok, ruh haline göre"
+  },
+  "q6": {
+    "text": "Uyku kalitenizi nasıl tanımlarsınız?",
+    "a": "Genelde iyi uyurum",
+    "b": "Hemen uyurum, dinlenmiş uyanırım",
+    "c": "Geç yatar ama derin uyurum",
+    "d": "Sık uyanırım, hafif uyurum"
+  },
+  "q7": {
+    "text": "İdeal egzersiz zamanınız?",
+    "a": "Öğle civarı",
+    "b": "Sabah erken",
+    "c": "Akşamdan sonra",
+    "d": "Canım ne zaman isterse"
+  },
+  "q8": {
+    "text": "Kafeini genellikle ne zaman içersiniz?",
+    "a": "Sabah bir fincan",
+    "b": "Nadiren veya çok erken sabah",
+    "c": "Öğleden sonra-akşam",
+    "d": "Gün boyunca birkaç fincan"
+  },
+  "q9": {
+    "text": "Grup projesinde rolünüz ne?",
+    "a": "Koordinatör – takım uyumunu korur",
+    "b": "Lider – hızlıca planlar ve uygular",
+    "c": "Fikir üreticisi – özgün çözümler",
+    "d": "Analist – dikkatli inceler ve geliştirir"
+  },
+  "q10": {
+    "text": "Hangi ifade size en çok uyuyor?",
+    "a": "Düzenli yaşam sağlığın temelidir",
+    "b": "Erken kalkan yol alır",
+    "c": "Gece derinleştikçe fikirler parlar",
+    "d": "Beynim hiç durmaz"
+  },
+  "results": {
+    "yourType": "Uyku Hayvanınız",
+    "percentage": "İnsanların yaklaşık %{pct}'i bu tiptedir",
+    "traits": "Temel Özellikler",
+    "sleepTips": "Uyku İpuçları",
+    "idealSchedule": "İdeal Günlük Program",
+    "bear": {
+      "name": "Ayı",
+      "emoji": "🐻",
+      "description": "Doğal olarak güneş döngüsünü takip edersiniz. İstikrarlı ve tutarlı bir ritimle, sabahın ortasında en verimlisiniz. Sosyal, güvenilir ve harika bir takım oyuncusu.",
+      "pct": "55",
+      "traits": ["İstikrarlı uyku düzeni", "Sabahın ortasında en yüksek verimlilik", "Sosyal ve takım dostu", "Düzenli rutini tercih eder", "Dengeli enerji seviyeleri"],
+      "sleepTips": ["Her gün aynı saatte yatın ve kalkın", "Sabah 15 dakika güneşlenin", "Öğle uykusu 20 dakikayı geçmesin", "Yatmadan 2 saat önce ekranları azaltın", "Hafif akşam yemeği"],
+      "idealSchedule": {
+        "wake": "07:00 – Uyanış",
+        "peak": "10:00 – 14:00 – Derin çalışma",
+        "exercise": "12:00 – 13:00 – Egzersiz",
+        "wind": "21:30 – Rahatlama",
+        "sleep": "23:00 – Uyku"
+      }
+    },
+    "lion": {
+      "name": "Aslan",
+      "emoji": "🦁",
+      "description": "Sabahın kralısınız! Şafaktan itibaren enerji dolu, öğleden önce en yüksek verimlilik. Hedef odaklı ve iyimser, doğuştan bir lider.",
+      "pct": "15",
+      "traits": ["Çok erken kalkan", "Öğleden önce en yüksek verimlilik", "Disiplinli ve hedef odaklı", "İyimser lider tipi", "Akşam erken yorulur"],
+      "sleepTips": ["21:00'den sonra parlak ışıklardan kaçının", "Öğleden sonra kafein kesinlikle yok", "Bilinçli bir sabah rutini oluşturun", "Gece sosyalleşmeye zorlamayın", "Hafta sonları da uyku saatlerini koruyun"],
+      "idealSchedule": {
+        "wake": "05:30 – Uyanış",
+        "peak": "06:00 – 12:00 – Derin çalışma",
+        "exercise": "05:30 – 06:30 – Egzersiz",
+        "wind": "20:30 – Rahatlama",
+        "sleep": "22:00 – Uyku"
+      }
+    },
+    "wolf": {
+      "name": "Kurt",
+      "emoji": "🐺",
+      "description": "Gün batımından sonra canlanan yaratıcı bir gece kuşusunuz! Akşamdan geceye enerji ve yaratıcılık zirve yapar. Kalıpların dışında düşünürsünüz.",
+      "pct": "15",
+      "traits": ["Akşam-gece enerji patlaması", "Yüksek yaratıcılık ve sezgi", "Alışılmadık düşünce", "Sabahları zor kalkar", "Duygusal ve içe dönük"],
+      "sleepTips": ["Sabah güçlü ışığa maruz kalın", "Gece yarısından önce yatmaya çalışın", "Akşam yemeğinden sonra hafif yürüyüş", "Uyumadan önce meditasyon veya okuma", "Sabah soğuk duş ile uyanın"],
+      "idealSchedule": {
+        "wake": "07:30 – Uyanış",
+        "peak": "17:00 – 00:00 – Derin çalışma",
+        "exercise": "18:00 – 19:00 – Egzersiz",
+        "wind": "00:00 – Rahatlama",
+        "sleep": "00:30 – Uyku"
+      }
+    },
+    "dolphin": {
+      "name": "Yunus",
+      "emoji": "🐬",
+      "description": "Hafif uykulu ve parlak bir zekaya sahipsiniz. Doğuştan mükemmeliyetçi, beyniniz sürekli çalışır. Uyku düzeniniz düzensiz olabilir ama odaklandığınızda sonuçlar olağanüstü.",
+      "pct": "10",
+      "traits": ["Hafif, hassas uyku", "Yüksek zeka ve analiz", "Mükemmeliyetçi eğilimler", "Düzensiz uyku düzeni", "Aşırı düşünme ve endişe"],
+      "sleepTips": ["Yatmadan önce endişe günlüğü yazın", "Tutarlı bir yatma rutini oluşturun", "Yatak odası serin ve karanlık olsun", "Beyaz gürültü veya ASMR kullanın", "Kafeini sadece sabahlarla sınırlandırın"],
+      "idealSchedule": {
+        "wake": "06:30 – Uyanış",
+        "peak": "10:00 – 12:00 – Derin çalışma",
+        "exercise": "07:00 – 08:00 – Egzersiz",
+        "wind": "22:00 – Rahatlama",
+        "sleep": "23:30 – Uyku"
+      }
+    }
+  },
+  "share": {
+    "title": "Paylaş",
+    "twitterText": "Uyku hayvanım {animal}{emoji}! İnsanların sadece %{pct}'i bu tip 🌙",
+    "copy": "Bağlantıyı Kopyala",
+    "copied": "Kopyalandı!",
+    "result": "Uyku Hayvanım: {animal}{emoji}"
+  },
+  "result": {
+    "retry": "Tekrar Test Et"
+  },
+  "theme": {
+    "toggle": "Temayı değiştir"
+  }
+}
