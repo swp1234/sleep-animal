@@ -1,5 +1,5 @@
 /* =================================================================
-   Sleep Animal Quiz - Deep Indigo Night-Sky Theme
+   Sleep Animal - Circular Sleep Timeline Builder
    Primary: #4A3F8A (Deep Indigo)
    ================================================================= */
 
@@ -29,6 +29,16 @@
   --lion: #E8A838;
   --wolf: #7B8CDE;
   --dolphin: #5BC0BE;
+
+  /* Activity colors */
+  --clr-sleep: #5B6ABF;
+  --clr-nap: #8B7BDE;
+  --clr-caffeine: #D4915C;
+  --clr-exercise: #5BBF7B;
+  --clr-screen: #BF5B5B;
+  --clr-work: #BFA95B;
+  --clr-meal: #BF8B5B;
+  --clr-relax: #5BBFB8;
 }
 
 [data-theme="light"] {
@@ -58,7 +68,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Night sky gradient background */
 body::before {
   content: '';
   position: fixed;
@@ -87,7 +96,6 @@ body::before {
   z-index: 0;
   overflow: hidden;
 }
-
 .stars span {
   position: absolute;
   width: 2px; height: 2px;
@@ -96,7 +104,6 @@ body::before {
   animation: twinkle var(--dur, 3s) ease-in-out infinite var(--delay, 0s);
   opacity: 0.4;
 }
-
 [data-theme="light"] .stars { opacity: 0; }
 
 @keyframes twinkle {
@@ -104,11 +111,10 @@ body::before {
   50% { opacity: 0.8; transform: scale(1.2); }
 }
 
-/* ===== Skip Link ===== */
+/* Skip Link */
 .skip-link {
   position: absolute;
-  top: -40px;
-  left: 0;
+  top: -40px; left: 0;
   background: var(--primary);
   color: #fff;
   padding: 8px 16px;
@@ -118,7 +124,7 @@ body::before {
 }
 .skip-link:focus { top: 0; }
 
-/* ===== App Loader ===== */
+/* App Loader */
 .app-loader {
   position: fixed;
   inset: 0;
@@ -139,7 +145,7 @@ body::before {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ===== Ad Banners ===== */
+/* Ad Banners */
 .ad-banner {
   width: 100%;
   text-align: center;
@@ -149,7 +155,7 @@ body::before {
   z-index: 1;
 }
 
-/* ===== Container ===== */
+/* Container */
 .container {
   max-width: 640px;
   margin: 0 auto;
@@ -158,7 +164,7 @@ body::before {
   z-index: 1;
 }
 
-/* ===== Header ===== */
+/* Header */
 .header {
   display: flex;
   align-items: center;
@@ -232,7 +238,7 @@ body::before {
 .lang-option:hover { background: var(--surface-hover); border-color: var(--border); }
 .lang-option.active { background: var(--primary-glow); border-color: var(--primary); color: var(--primary-light); }
 
-/* ===== Screens ===== */
+/* Screens */
 .screen { display: none; }
 .screen.active { display: block; animation: fadeInUp 0.35s ease; }
 
@@ -287,7 +293,6 @@ body::before {
   gap: 6px;
 }
 
-/* Animal preview cards on start screen */
 .animals-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -335,7 +340,7 @@ body::before {
   border: 1px solid var(--border);
 }
 
-/* ===== Buttons ===== */
+/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -369,106 +374,178 @@ body::before {
 .btn-secondary:hover { background: var(--surface-hover); }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ===== Quiz Screen ===== */
-.quiz-header { margin-bottom: 20px; }
-.progress-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
+/* ===== Timeline Builder Screen ===== */
+.timeline-header {
+  text-align: center;
+  margin-bottom: 20px;
 }
-.progress-label {
-  font-size: 0.82rem;
+.timeline-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.timeline-subtitle {
+  font-size: 0.85rem;
   color: var(--text-muted);
 }
-.progress-count {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--primary-light);
-}
-.progress-bar-wrap {
-  height: 6px;
-  background: var(--surface);
-  border-radius: 4px;
-  overflow: hidden;
-}
-.progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--primary), var(--primary-light), var(--accent));
-  border-radius: 4px;
-  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.question-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 24px;
-  margin-bottom: 16px;
-  backdrop-filter: blur(12px);
-}
-.question-number {
-  font-size: 0.8rem;
-  color: var(--primary-light);
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-.question-text {
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.5;
-  color: var(--text);
-}
-
-/* Answer options */
-.options-wrap {
+/* Activity Palette */
+.activity-palette {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.activity-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 2px solid var(--border);
+  border-radius: 30px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  min-height: 44px;
+  backdrop-filter: blur(8px);
+  user-select: none;
+  -webkit-user-select: none;
+}
+.activity-btn:hover {
+  background: var(--surface-hover);
+  transform: translateY(-1px);
+}
+.activity-btn.selected {
+  border-color: var(--activity-color, var(--primary-light));
+  background: color-mix(in srgb, var(--activity-color, var(--primary)) 20%, transparent);
+  box-shadow: 0 2px 12px color-mix(in srgb, var(--activity-color, var(--primary)) 30%, transparent);
+}
+.activity-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Clock */
+.clock-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.clock-container {
+  position: relative;
+  width: min(85vw, 380px);
+  height: min(85vw, 380px);
+}
+.clock-svg {
+  width: 100%;
+  height: 100%;
+}
+.clock-center {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+.clock-center-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 4px;
+}
+.clock-center-text {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  max-width: 100px;
+  display: block;
+}
+
+/* Clock segment hover/active */
+.clock-segment {
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.clock-segment:hover {
+  opacity: 0.85;
+}
+.clock-segment.filled {
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.15));
+}
+
+/* Hour labels on clock */
+.clock-hour-label {
+  font-size: 11px;
+  fill: var(--text-muted);
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+[data-theme="light"] .clock-hour-label {
+  fill: rgba(26, 26, 46, 0.5);
+}
+
+/* Legend */
+.timeline-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.legend-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Stats */
+.timeline-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 10px;
   margin-bottom: 20px;
 }
-.option-btn {
-  width: 100%;
-  min-height: 52px;
-  padding: 14px 18px;
-  border: 2px solid var(--border);
-  border-radius: var(--radius);
+.stat-card {
   background: var(--surface);
-  color: var(--text);
-  font-size: 0.95rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s;
-  text-align: left;
-  font-family: inherit;
-  line-height: 1.4;
-  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  text-align: center;
+  backdrop-filter: blur(8px);
 }
-.option-btn:hover {
-  border-color: var(--primary-light);
-  background: var(--primary-glow);
-  transform: translateX(4px);
-}
-.option-btn.selected {
-  border-color: var(--primary-light);
-  background: linear-gradient(135deg, rgba(74, 63, 138, 0.25), rgba(200, 162, 232, 0.15));
-  color: var(--accent);
-  font-weight: 600;
-  box-shadow: 0 4px 16px var(--primary-glow);
-}
-.option-btn .option-label {
-  display: inline-block;
-  min-width: 24px;
-  font-weight: 700;
+.stat-value {
+  font-size: 1.4rem;
+  font-weight: 800;
   color: var(--primary-light);
-  margin-right: 8px;
+}
+.stat-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 2px;
 }
 
-.quiz-nav {
+/* Timeline actions */
+.timeline-actions {
   display: flex;
   gap: 12px;
 }
-.quiz-nav .btn { flex: 1; }
+.timeline-actions .btn { flex: 1; }
 
 /* ===== Result Screen ===== */
 .result-hero {
@@ -522,6 +599,32 @@ body::before {
   line-height: 1.7;
   max-width: 500px;
   margin: 0 auto 24px;
+}
+
+/* Comparison clocks */
+.comparison-clocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+.comparison-item {
+  text-align: center;
+}
+.comparison-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.comparison-clock {
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+}
+.comparison-clock svg {
+  width: 100%;
+  height: auto;
 }
 
 /* Section titles */
@@ -650,13 +753,11 @@ body::before {
 .share-btn.twitter { background: #000; color: #fff; border-color: #000; }
 .share-btn.twitter:hover { background: #1a1a1a; }
 
-/* ===== Moon decoration ===== */
+/* Moon decoration */
 .moon {
   position: fixed;
-  top: 60px;
-  right: -30px;
-  width: 120px;
-  height: 120px;
+  top: 60px; right: -30px;
+  width: 120px; height: 120px;
   border-radius: 50%;
   background: radial-gradient(circle at 35% 35%, #f5f3ce, #e8d88e, #c8a84e);
   box-shadow: 0 0 60px rgba(245, 243, 206, 0.15), 0 0 120px rgba(245, 243, 206, 0.08);
@@ -666,13 +767,14 @@ body::before {
 }
 [data-theme="light"] .moon { opacity: 0.08; }
 
-/* ===== Responsive ===== */
+/* Responsive */
 @media (max-width: 400px) {
   .animals-grid { grid-template-columns: 1fr; }
   .hero-title { font-size: 1.5rem; }
-  .option-btn { padding: 12px 14px; font-size: 0.9rem; }
   .result-animal-emoji { font-size: 4rem; }
   .result-animal-name { font-size: 1.6rem; }
+  .comparison-clocks { grid-template-columns: 1fr; }
+  .activity-btn { padding: 6px 10px; font-size: 0.78rem; }
 }
 
 @keyframes shake {
@@ -681,6 +783,11 @@ body::before {
   40% { transform: translateX(6px); }
   60% { transform: translateX(-4px); }
   80% { transform: translateX(4px); }
+}
+
+@keyframes pulseSegment {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
 }
 
 @media (prefers-reduced-motion: reduce) {

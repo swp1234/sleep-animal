@@ -12,8 +12,8 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
 
   <title data-i18n="meta.title">수면 동물 테스트 | 나의 수면 유형은? - DopaBrain</title>
-  <meta name="description" data-i18n="meta.description" content="10개 질문으로 당신의 수면 크로노타입을 알아보세요. 곰, 사자, 늑대, 돌고래 중 나의 수면 동물은?">
-  <meta name="keywords" content="sleep animal, chronotype, sleep type, bear lion wolf dolphin, sleep quiz, 수면 동물, 크로노타입">
+  <meta name="description" data-i18n="meta.description" content="24시간 수면 타임라인을 직접 만들어 당신의 수면 동물을 찾아보세요. 곰, 사자, 늑대, 돌고래 중 나는?">
+  <meta name="keywords" content="sleep animal, chronotype, sleep type, bear lion wolf dolphin, sleep timeline, 수면 동물, 크로노타입">
 
   <link rel="canonical" href="https://dopabrain.com/sleep-animal/">
   <meta name="theme-color" content="#4A3F8A">
@@ -21,8 +21,8 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8GSWM40TV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-J8GSWM40TV');</script>
 
-  <meta property="og:title" content="Sleep Animal Quiz - What's Your Chronotype?">
-  <meta property="og:description" content="Discover if you're a Bear, Lion, Wolf, or Dolphin! Take the sleep chronotype quiz.">
+  <meta property="og:title" content="Sleep Animal Quiz - Build Your Sleep Timeline">
+  <meta property="og:description" content="Build your 24-hour sleep timeline and discover your chronotype animal!">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dopabrain.com/sleep-animal/">
   <meta property="og:locale" content="ko_KR">
@@ -40,7 +40,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Sleep Animal Quiz - DopaBrain">
-  <meta name="twitter:description" content="Discover your sleep chronotype! Are you a Bear, Lion, Wolf, or Dolphin?">
+  <meta name="twitter:description" content="Build your sleep timeline and discover your chronotype!">
 
   <link rel="alternate" hreflang="ko" href="https://dopabrain.com/sleep-animal/">
   <link rel="alternate" hreflang="en" href="https://dopabrain.com/sleep-animal/">
@@ -60,8 +60,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "Sleep Animal Quiz - Chronotype Test",
-    "description": "Discover your sleep chronotype with 10 questions. Are you a Bear, Lion, Wolf, or Dolphin?",
+    "name": "Sleep Animal Quiz - Sleep Timeline Builder",
+    "description": "Build your 24-hour sleep timeline and discover your chronotype animal: Bear, Lion, Wolf, or Dolphin.",
     "url": "https://dopabrain.com/sleep-animal/",
     "applicationCategory": "LifestyleApplication",
     "educationalLevel": "All",
@@ -95,7 +95,7 @@
     <header class="header">
       <div>
         <h1 class="app-title" data-i18n="app.title">수면 동물 테스트</h1>
-        <p class="app-subtitle" data-i18n="app.subtitle">Sleep Chronotype Quiz</p>
+        <p class="app-subtitle" data-i18n="app.subtitle">Sleep Timeline Builder</p>
       </div>
       <div class="header-controls">
         <button class="icon-btn" id="theme-btn" aria-label="Toggle theme">☀️</button>
@@ -122,11 +122,11 @@
       <div class="start-hero">
         <span class="hero-icon">🌙</span>
         <h2 class="hero-title" data-i18n="app.heroTitle">나의 수면 동물은?</h2>
-        <p class="hero-subtitle" data-i18n="intro.desc">10개 질문으로 당신의 수면 크로노타입(생체리듬 유형)을 분석합니다.</p>
+        <p class="hero-subtitle" data-i18n="intro.desc">24시간 원형 타임라인에 당신의 하루 활동을 배치하고, 수면 크로노타입 동물을 찾아보세요!</p>
       </div>
 
       <div class="info-strip">
-        <div class="info-chip">📋 <span data-i18n="intro.chip1">10개 질문</span></div>
+        <div class="info-chip">🕐 <span data-i18n="intro.chip1">타임라인 빌더</span></div>
         <div class="info-chip">⏱️ <span data-i18n="intro.chip2">약 2분</span></div>
         <div class="info-chip">🎯 <span data-i18n="intro.chip3">4가지 유형</span></div>
       </div>
@@ -155,31 +155,39 @@
       </div>
 
       <p class="disclaimer" data-i18n="intro.disclaimer">이 테스트는 재미를 위한 것이며, 의학적 진단이 아닙니다.</p>
-      <button class="btn btn-primary" id="btn-start" data-i18n="intro.start">테스트 시작하기</button>
+      <button class="btn btn-primary" id="btn-start" data-i18n="intro.start">타임라인 만들기</button>
     </section>
 
-    <!-- Screen: Quiz -->
-    <section id="screen-quiz" class="screen">
-      <div class="quiz-header">
-        <div class="progress-info">
-          <span class="progress-label" id="progress-label">1 / 10</span>
-          <span class="progress-count" data-i18n="quiz.progress">진행률</span>
-        </div>
-        <div class="progress-bar-wrap">
-          <div class="progress-fill" id="progress-fill"></div>
+    <!-- Screen: Timeline Builder -->
+    <section id="screen-timeline" class="screen">
+      <div class="timeline-header">
+        <h2 class="timeline-title" data-i18n="timeline.title">나의 24시간 타임라인</h2>
+        <p class="timeline-subtitle" data-i18n="timeline.subtitle">활동을 선택하고 시계 위의 시간대를 탭하여 배치하세요</p>
+      </div>
+
+      <!-- Activity Palette -->
+      <div class="activity-palette" id="activity-palette"></div>
+
+      <!-- Circular Clock -->
+      <div class="clock-wrapper">
+        <div class="clock-container" id="clock-container">
+          <svg class="clock-svg" id="clock-svg" viewBox="0 0 400 400"></svg>
+          <div class="clock-center">
+            <span class="clock-center-icon" id="clock-center-icon">🌙</span>
+            <span class="clock-center-text" id="clock-center-text" data-i18n="timeline.tapHour">시간을 탭하세요</span>
+          </div>
         </div>
       </div>
 
-      <div class="question-card">
-        <div class="question-number" id="q-number">Q1</div>
-        <div class="question-text" id="q-text"></div>
-      </div>
+      <!-- Legend -->
+      <div class="timeline-legend" id="timeline-legend"></div>
 
-      <div class="options-wrap" id="options-wrap"></div>
+      <!-- Stats -->
+      <div class="timeline-stats" id="timeline-stats"></div>
 
-      <div class="quiz-nav">
-        <button class="btn btn-secondary" id="btn-prev" data-i18n="quiz.prev">이전</button>
-        <button class="btn btn-primary" id="btn-next" data-i18n="quiz.next">다음</button>
+      <div class="timeline-actions">
+        <button class="btn btn-secondary" id="btn-clear" data-i18n="timeline.clear">초기화</button>
+        <button class="btn btn-primary" id="btn-analyze" data-i18n="timeline.analyze">분석하기</button>
       </div>
     </section>
 
@@ -192,6 +200,10 @@
         <p class="result-percentage" id="result-percentage"></p>
         <p class="result-description" id="result-desc"></p>
       </div>
+
+      <!-- Timeline comparison -->
+      <p class="section-title" data-i18n="results.comparison">타임라인 비교</p>
+      <div class="comparison-clocks" id="comparison-clocks"></div>
 
       <p class="section-title" data-i18n="results.traits">주요 특성</p>
       <div class="traits-list" id="traits-list"></div>

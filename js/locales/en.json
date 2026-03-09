@@ -1,23 +1,23 @@
 {
   "meta": {
-    "title": "Sleep Animal Quiz | What's Your Chronotype? - DopaBrain",
-    "description": "Discover your sleep chronotype with 10 questions. Are you a Bear, Lion, Wolf, or Dolphin? Get your ideal sleep schedule and productivity tips!"
+    "title": "Sleep Animal Quiz | Sleep Timeline Builder - DopaBrain",
+    "description": "Build your 24-hour sleep timeline and discover your chronotype animal. Are you a Bear, Lion, Wolf, or Dolphin?"
   },
   "accessibility": {
     "skipMain": "Skip to main content"
   },
   "app": {
     "title": "Sleep Animal Quiz",
-    "subtitle": "Sleep Chronotype Quiz",
+    "subtitle": "Sleep Timeline Builder",
     "heroTitle": "What's Your Sleep Animal?"
   },
   "intro": {
-    "desc": "Answer 10 questions to discover your sleep chronotype. Get your ideal sleep schedule, productivity windows, and personalized tips!",
-    "chip1": "10 Questions",
+    "desc": "Place your daily activities on a 24-hour circular timeline and discover your sleep chronotype animal!",
+    "chip1": "Timeline Builder",
     "chip2": "~2 Minutes",
     "chip3": "4 Types",
     "disclaimer": "This quiz is for entertainment purposes only and is not a medical diagnosis.",
-    "start": "Start the Quiz"
+    "start": "Build My Timeline"
   },
   "animals": {
     "bear": "Bear",
@@ -31,92 +31,42 @@
     "wolf": "Night-owl creative spirit",
     "dolphin": "Light-sleeping perfectionist brain"
   },
-  "quiz": {
-    "prev": "Previous",
-    "next": "Next",
-    "finish": "See Results",
-    "progress": "Progress"
+  "timeline": {
+    "title": "My 24-Hour Timeline",
+    "subtitle": "Select an activity and tap hours on the clock to place it",
+    "tapHour": "Tap an hour",
+    "clear": "Clear All",
+    "analyze": "Analyze"
   },
-  "q1": {
-    "text": "What time do you naturally feel sleepy?",
-    "a": "10 PM – 11 PM",
-    "b": "9 PM – 10 PM",
-    "c": "After midnight",
-    "d": "Irregular (different every day)"
+  "activities": {
+    "sleep": "Sleep",
+    "nap": "Nap",
+    "caffeine": "Caffeine",
+    "exercise": "Exercise",
+    "screen": "Screen",
+    "work": "Work",
+    "meal": "Meal",
+    "relax": "Relax",
+    "eraser": "Eraser"
   },
-  "q2": {
-    "text": "Without an alarm, what time do you wake up?",
-    "a": "7 AM – 8 AM",
-    "b": "5 AM – 6 AM",
-    "c": "After 9 AM",
-    "d": "Wake up multiple times, drift back"
-  },
-  "q3": {
-    "text": "When do you feel most energized during the day?",
-    "a": "10 AM – 2 PM",
-    "b": "Early morning (6 AM – 10 AM)",
-    "c": "Evening to night (after 6 PM)",
-    "d": "Unpredictable bursts of energy"
-  },
-  "q4": {
-    "text": "If you had an important exam or presentation, when would you prepare?",
-    "a": "Steadily throughout the morning",
-    "b": "Wake up early and get it done",
-    "c": "Late at night with deep focus",
-    "d": "Last minute in one intense burst"
-  },
-  "q5": {
-    "text": "How would you spend a free weekend?",
-    "a": "Leisurely brunch with friends",
-    "b": "Morning workout then productive tasks",
-    "c": "Sleep in, go out at night",
-    "d": "No plans, go with the mood"
-  },
-  "q6": {
-    "text": "How would you describe your sleep quality?",
-    "a": "Generally sleep well",
-    "b": "Fall asleep fast, wake up refreshed",
-    "c": "Sleep late but deeply",
-    "d": "Wake often, light sleeper"
-  },
-  "q7": {
-    "text": "What's your ideal exercise time?",
-    "a": "Around lunchtime",
-    "b": "Early morning",
-    "c": "After evening",
-    "d": "Whenever the mood strikes"
-  },
-  "q8": {
-    "text": "When do you usually drink caffeine?",
-    "a": "One cup in the morning",
-    "b": "Rarely or very early morning",
-    "c": "Afternoon to evening",
-    "d": "Multiple cups throughout the day"
-  },
-  "q9": {
-    "text": "In a group project, what's your role?",
-    "a": "Coordinator – keeps team harmony",
-    "b": "Leader – plans and executes quickly",
-    "c": "Idea generator – unique solutions",
-    "d": "Analyst – reviews and refines carefully"
-  },
-  "q10": {
-    "text": "Which statement resonates with you most?",
-    "a": "A regular routine is the foundation of health",
-    "b": "The early bird catches the worm",
-    "c": "The deeper the night, the brighter the ideas",
-    "d": "My mind never stops running"
+  "stats": {
+    "sleepHours": "Sleep Hours",
+    "filledSlots": "Filled Slots",
+    "caffeineHours": "Caffeine Hours"
   },
   "results": {
     "yourType": "Your Sleep Animal",
     "percentage": "About {pct}% of people share this type",
+    "comparison": "Timeline Comparison",
+    "yourTimeline": "Your Timeline",
+    "idealTimeline": "Ideal Timeline",
     "traits": "Key Traits",
     "sleepTips": "Sleep Tips",
     "idealSchedule": "Ideal Daily Schedule",
     "bear": {
       "name": "Bear",
       "emoji": "🐻",
-      "description": "You follow the solar cycle naturally. With a steady and consistent rhythm, you're most productive mid-morning. Social, reliable, and a great team player — people trust you instinctively.",
+      "description": "You follow the solar cycle naturally. With a steady and consistent rhythm, you're most productive mid-morning. Social, reliable, and a great team player.",
       "pct": "55",
       "traits": ["Stable sleep pattern", "Peak productivity mid-morning", "Social and team-friendly", "Prefers regular routines", "Balanced energy levels"],
       "sleepTips": ["Go to bed and wake up at the same time daily", "Get 15 minutes of morning sunlight", "Keep afternoon naps under 20 minutes", "Reduce screen time 2 hours before bed", "Eat a light dinner"],
@@ -131,7 +81,7 @@
     "lion": {
       "name": "Lion",
       "emoji": "🦁",
-      "description": "You're the king of mornings! Bursting with energy from dawn, you hit peak productivity before noon. Goal-oriented and optimistic, you're a natural leader. Early to bed, early to rise is your mantra.",
+      "description": "You're the king of mornings! Bursting with energy from dawn, you hit peak productivity before noon. Goal-oriented and optimistic, you're a natural leader.",
       "pct": "15",
       "traits": ["Early riser, morning person", "Peak productivity before noon", "Disciplined and goal-oriented", "Optimistic leader type", "Gets tired early in evening"],
       "sleepTips": ["Avoid bright lights after 9 PM", "No caffeine after noon", "Build a conscious morning routine", "Don't force late-night socializing", "Keep weekend sleep times consistent"],
@@ -146,7 +96,7 @@
     "wolf": {
       "name": "Wolf",
       "emoji": "🐺",
-      "description": "You're a creative night owl who comes alive after sunset! Your energy and creativity peak in the evening hours. You think outside the box and march to your own beat. Mornings are tough, but nights are your kingdom.",
+      "description": "You're a creative night owl who comes alive after sunset! Your energy and creativity peak in the evening. You think outside the box and march to your own beat.",
       "pct": "15",
       "traits": ["Evening-to-night energy surge", "Highly creative and intuitive", "Unconventional thinker", "Mornings are difficult", "Emotional and introspective"],
       "sleepTips": ["Get bright light exposure in the morning", "Try to be in bed by midnight", "Take a light walk after dinner", "Meditate or read before sleep", "Cold shower in the morning to wake up"],
@@ -161,7 +111,7 @@
     "dolphin": {
       "name": "Dolphin",
       "emoji": "🐬",
-      "description": "You're a light sleeper with a brilliant mind. Perfectionist by nature, your brain is always buzzing. Your sleep patterns may be irregular, but when you lock in, you produce extraordinary results.",
+      "description": "You're a light sleeper with a brilliant mind. Perfectionist by nature, your brain is always buzzing. Your sleep may be irregular, but when you lock in, you produce extraordinary results.",
       "pct": "10",
       "traits": ["Light, sensitive sleeper", "High intelligence and analytical", "Perfectionist tendencies", "Irregular sleep patterns", "Overthinks and worries often"],
       "sleepTips": ["Write a worry journal before bed", "Build a consistent bedtime routine", "Keep bedroom cool and dark", "Use white noise or ASMR", "Limit caffeine to mornings only"],
@@ -182,7 +132,7 @@
     "result": "My Sleep Animal: {animal}{emoji}"
   },
   "result": {
-    "retry": "Take Quiz Again"
+    "retry": "Try Again"
   },
   "theme": {
     "toggle": "Toggle theme"

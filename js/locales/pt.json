@@ -1,23 +1,23 @@
 {
   "meta": {
-    "title": "Teste do Animal do Sono | Qual é seu cronotipo? - DopaBrain",
-    "description": "Descubra seu cronotipo do sono com 10 perguntas. Urso, Leão, Lobo ou Golfinho? Descubra seu horário ideal de sono!"
+    "title": "Teste do Animal do Sono | Construtor de Linha do Tempo - DopaBrain",
+    "description": "Construa sua linha do tempo de sono de 24 horas e descubra seu animal cronotipo. Urso, Leão, Lobo ou Golfinho?"
   },
   "accessibility": {
-    "skipMain": "Pular para conteúdo principal"
+    "skipMain": "Pular para o conteúdo principal"
   },
   "app": {
     "title": "Animal do Sono",
-    "subtitle": "Sleep Chronotype Quiz",
-    "heroTitle": "Qual é seu animal do sono?"
+    "subtitle": "Sleep Timeline Builder",
+    "heroTitle": "Qual é o seu animal do sono?"
   },
   "intro": {
-    "desc": "Responda 10 perguntas para descobrir seu cronotipo do sono. Receba seu horário ideal, janelas de produtividade e dicas personalizadas!",
-    "chip1": "10 Perguntas",
+    "desc": "Coloque suas atividades diárias em uma linha do tempo circular de 24 horas e descubra seu animal cronotipo do sono!",
+    "chip1": "Construtor",
     "chip2": "~2 Minutos",
     "chip3": "4 Tipos",
-    "disclaimer": "Este teste é apenas para entretenimento e não constitui diagnóstico médico.",
-    "start": "Começar o Teste"
+    "disclaimer": "Este teste é apenas para entretenimento e não é um diagnóstico médico.",
+    "start": "Criar minha linha do tempo"
   },
   "animals": {
     "bear": "Urso",
@@ -26,150 +26,100 @@
     "dolphin": "Golfinho"
   },
   "animalIntro": {
-    "bear": "Dormidor estável do ciclo solar",
+    "bear": "Dorminhoco estável do ciclo solar",
     "lion": "Madrugador poderoso",
-    "wolf": "Coruja criativa noturna",
+    "wolf": "Coruja noturna criativa",
     "dolphin": "Cérebro perfeccionista de sono leve"
   },
-  "quiz": {
-    "prev": "Anterior",
-    "next": "Próxima",
-    "finish": "Ver Resultados",
-    "progress": "Progresso"
+  "timeline": {
+    "title": "Minha linha do tempo de 24 horas",
+    "subtitle": "Selecione uma atividade e toque nas horas no relógio para colocá-la",
+    "tapHour": "Toque em uma hora",
+    "clear": "Limpar",
+    "analyze": "Analisar"
   },
-  "q1": {
-    "text": "A que horas você sente sono naturalmente?",
-    "a": "22h – 23h",
-    "b": "21h – 22h",
-    "c": "Depois da meia-noite",
-    "d": "Irregular (muda todo dia)"
+  "activities": {
+    "sleep": "Dormir",
+    "nap": "Cochilo",
+    "caffeine": "Cafeína",
+    "exercise": "Exercício",
+    "screen": "Tela",
+    "work": "Trabalho",
+    "meal": "Refeição",
+    "relax": "Relaxar",
+    "eraser": "Apagar"
   },
-  "q2": {
-    "text": "Sem despertador, a que horas você acorda?",
-    "a": "7h – 8h",
-    "b": "5h – 6h",
-    "c": "Depois das 9h",
-    "d": "Acordo várias vezes e volto a dormir"
-  },
-  "q3": {
-    "text": "Quando você se sente mais energizado no dia?",
-    "a": "10h – 14h",
-    "b": "Cedo pela manhã (6h – 10h)",
-    "c": "Fim da tarde à noite (após 18h)",
-    "d": "Surtos imprevisíveis de energia"
-  },
-  "q4": {
-    "text": "Para uma prova importante, quando você estudaria?",
-    "a": "De manhã, com constância",
-    "b": "Acordar cedo e resolver",
-    "c": "À noite com foco profundo",
-    "d": "Na última hora, tudo de uma vez"
-  },
-  "q5": {
-    "text": "Como passaria um fim de semana livre?",
-    "a": "Brunch tranquilo com amigos",
-    "b": "Exercício matinal e atividades produtivas",
-    "c": "Dormir até tarde, sair à noite",
-    "d": "Sem planos, conforme o humor"
-  },
-  "q6": {
-    "text": "Como é a qualidade do seu sono?",
-    "a": "Geralmente durmo bem",
-    "b": "Pego no sono rápido e acordo descansado",
-    "c": "Durmo tarde mas profundamente",
-    "d": "Acordo frequentemente, sono leve"
-  },
-  "q7": {
-    "text": "Qual seu horário ideal para exercício?",
-    "a": "Perto do almoço",
-    "b": "Cedo de manhã",
-    "c": "Final da tarde/noite",
-    "d": "Quando der vontade"
-  },
-  "q8": {
-    "text": "Quando você costuma tomar cafeína?",
-    "a": "Uma xícara de manhã",
-    "b": "Raramente ou muito cedo",
-    "c": "À tarde/noite",
-    "d": "Várias xícaras ao longo do dia"
-  },
-  "q9": {
-    "text": "Num projeto em grupo, qual é seu papel?",
-    "a": "Coordenador – mantém a harmonia",
-    "b": "Líder – planeja e executa rápido",
-    "c": "Criativo – soluções originais",
-    "d": "Analista – revisa e aprimora com cuidado"
-  },
-  "q10": {
-    "text": "Com qual frase você mais se identifica?",
-    "a": "Rotina regular é a base da saúde",
-    "b": "Deus ajuda quem cedo madruga",
-    "c": "Quanto mais funda a noite, melhores as ideias",
-    "d": "Minha mente nunca para de funcionar"
+  "stats": {
+    "sleepHours": "Horas de sono",
+    "filledSlots": "Slots preenchidos",
+    "caffeineHours": "Horas de cafeína"
   },
   "results": {
-    "yourType": "Seu Animal do Sono",
-    "percentage": "Cerca de {pct}% das pessoas compartilham este tipo",
-    "traits": "Características Principais",
-    "sleepTips": "Dicas de Sono",
-    "idealSchedule": "Agenda Diária Ideal",
+    "yourType": "Seu animal do sono",
+    "percentage": "Cerca de {pct}% das pessoas são deste tipo",
+    "comparison": "Comparação de linhas do tempo",
+    "yourTimeline": "Sua linha do tempo",
+    "idealTimeline": "Linha do tempo ideal",
+    "traits": "Principais características",
+    "sleepTips": "Dicas de sono",
+    "idealSchedule": "Programação diária ideal",
     "bear": {
       "name": "Urso",
       "emoji": "🐻",
-      "description": "Você segue o ciclo solar naturalmente. Com um ritmo estável e consistente, é mais produtivo no meio da manhã. Social, confiável e um ótimo jogador de equipe.",
+      "description": "Você segue naturalmente o ciclo solar. Com um ritmo estável e consistente, você é mais produtivo no meio da manhã. Social, confiável e ótimo jogador de equipe.",
       "pct": "55",
       "traits": ["Padrão de sono estável", "Pico de produtividade no meio da manhã", "Social e amigável em equipe", "Prefere rotinas regulares", "Níveis de energia equilibrados"],
-      "sleepTips": ["Durma e acorde no mesmo horário todos os dias", "Tome 15 minutos de sol matinal", "Sonecas de no máximo 20 minutos", "Reduza telas 2 horas antes de dormir", "Jante leve"],
+      "sleepTips": ["Durma e acorde no mesmo horário todos os dias", "Tome 15 minutos de sol matinal", "Mantenha cochilos à tarde em menos de 20 minutos", "Reduza o tempo de tela 2 horas antes de dormir", "Jante leve"],
       "idealSchedule": {
         "wake": "7:00 – Acordar",
         "peak": "10:00 – 14:00 – Trabalho profundo",
         "exercise": "12:00 – 13:00 – Exercício",
-        "wind": "21:30 – Relaxamento",
+        "wind": "21:30 – Relaxar",
         "sleep": "23:00 – Dormir"
       }
     },
     "lion": {
       "name": "Leão",
       "emoji": "🦁",
-      "description": "Você é o rei das manhãs! Cheio de energia desde o amanhecer, atinge pico de produtividade antes do meio-dia. Orientado a objetivos e otimista, é um líder nato.",
+      "description": "Você é o rei das manhãs! Cheio de energia desde o amanhecer, atinge o pico de produtividade antes do meio-dia. Orientado a metas e otimista, você é um líder natural.",
       "pct": "15",
-      "traits": ["Madrugador extremo", "Pico de produtividade antes do meio-dia", "Disciplinado e orientado a metas", "Tipo líder otimista", "Cansa cedo à noite"],
-      "sleepTips": ["Evite luzes fortes após as 21h", "Zero cafeína após o meio-dia", "Crie uma rotina matinal consciente", "Não force socialização noturna", "Mantenha horários nos fins de semana"],
+      "traits": ["Madrugador, pessoa matinal", "Pico de produtividade antes do meio-dia", "Disciplinado e orientado a metas", "Tipo líder otimista", "Cansa cedo à noite"],
+      "sleepTips": ["Evite luzes fortes após as 21h", "Sem cafeína após o meio-dia", "Construa uma rotina matinal consciente", "Não force socializações noturnas", "Mantenha horários de sono consistentes nos fins de semana"],
       "idealSchedule": {
         "wake": "5:30 – Acordar",
         "peak": "6:00 – 12:00 – Trabalho profundo",
         "exercise": "5:30 – 6:30 – Exercício",
-        "wind": "20:30 – Relaxamento",
+        "wind": "20:30 – Relaxar",
         "sleep": "22:00 – Dormir"
       }
     },
     "wolf": {
       "name": "Lobo",
       "emoji": "🐺",
-      "description": "Você é uma coruja criativa que ganha vida ao anoitecer! Sua energia e criatividade explodem à noite. Pensa fora da caixa. Manhãs são difíceis, mas as noites são seu reino.",
+      "description": "Você é uma coruja noturna criativa que ganha vida após o pôr do sol! Sua energia e criatividade atingem o pico à noite. Você pensa fora da caixa e segue seu próprio ritmo.",
       "pct": "15",
-      "traits": ["Explosão de energia noturna", "Altamente criativo e intuitivo", "Pensador não convencional", "Manhãs são difíceis", "Emocional e introspectivo"],
-      "sleepTips": ["Exponha-se à luz forte pela manhã", "Tente dormir antes da meia-noite", "Caminhada leve após o jantar", "Medite ou leia antes de dormir", "Banho frio de manhã para despertar"],
+      "traits": ["Surto de energia noturna", "Altamente criativo e intuitivo", "Pensador não convencional", "Manhãs são difíceis", "Emocional e introspectivo"],
+      "sleepTips": ["Receba luz forte pela manhã", "Tente estar na cama antes da meia-noite", "Faça uma caminhada leve após o jantar", "Medite ou leia antes de dormir", "Banho frio pela manhã para acordar"],
       "idealSchedule": {
         "wake": "7:30 – Acordar",
-        "peak": "17:00 – 00:00 – Trabalho profundo",
+        "peak": "17:00 – 0:00 – Trabalho profundo",
         "exercise": "18:00 – 19:00 – Exercício",
-        "wind": "00:00 – Relaxamento",
-        "sleep": "00:30 – Dormir"
+        "wind": "0:00 – Relaxar",
+        "sleep": "0:30 – Dormir"
       }
     },
     "dolphin": {
       "name": "Golfinho",
       "emoji": "🐬",
-      "description": "Você tem sono leve e mente brilhante. Perfeccionista por natureza, seu cérebro está sempre ativo. Seus padrões de sono podem ser irregulares, mas quando se concentra, os resultados são extraordinários.",
+      "description": "Você tem sono leve e uma mente brilhante. Perfeccionista por natureza, seu cérebro está sempre ativo. Seu sono pode ser irregular, mas quando foca, produz resultados extraordinários.",
       "pct": "10",
-      "traits": ["Sono leve e sensível", "Alta inteligência e análise", "Tendências perfeccionistas", "Padrões de sono irregulares", "Pensa e preocupa-se demais"],
-      "sleepTips": ["Escreva um diário de preocupações antes de dormir", "Construa uma rotina constante de sono", "Mantenha o quarto fresco e escuro", "Use ruído branco ou ASMR", "Limite cafeína apenas às manhãs"],
+      "traits": ["Sono leve e sensível", "Alta inteligência e análise", "Tendências perfeccionistas", "Padrões de sono irregulares", "Pensa demais e se preocupa frequentemente"],
+      "sleepTips": ["Escreva um diário de preocupações antes de dormir", "Construa uma rotina consistente para dormir", "Mantenha o quarto fresco e escuro", "Use ruído branco ou ASMR", "Limite a cafeína apenas às manhãs"],
       "idealSchedule": {
         "wake": "6:30 – Acordar",
         "peak": "10:00 – 12:00 – Trabalho profundo",
         "exercise": "7:00 – 8:00 – Exercício",
-        "wind": "22:00 – Relaxamento",
+        "wind": "22:00 – Relaxar",
         "sleep": "23:30 – Dormir"
       }
     }
@@ -177,12 +127,12 @@
   "share": {
     "title": "Compartilhar",
     "twitterText": "Meu animal do sono é {animal}{emoji}! Apenas {pct}% das pessoas são deste tipo 🌙",
-    "copy": "Copiar Link",
+    "copy": "Copiar link",
     "copied": "Copiado!",
-    "result": "Meu Animal do Sono: {animal}{emoji}"
+    "result": "Meu animal do sono: {animal}{emoji}"
   },
   "result": {
-    "retry": "Refazer o Teste"
+    "retry": "Tentar novamente"
   },
   "theme": {
     "toggle": "Alternar tema"
