@@ -68,8 +68,20 @@
       "emoji": "🐻",
       "description": "Du folgst natürlich dem Sonnenzyklus. Mit einem stabilen und konsistenten Rhythmus bist du am Vormittag am produktivsten. Sozial, zuverlässig und ein großartiger Teamplayer.",
       "pct": "55",
-      "traits": ["Stabiles Schlafmuster", "Spitzenproduktivität am Vormittag", "Sozial und teamfreundlich", "Bevorzugt regelmäßige Routinen", "Ausgeglichene Energielevel"],
-      "sleepTips": ["Gehe jeden Tag zur gleichen Zeit ins Bett und stehe auf", "Nimm 15 Minuten Morgensonnenlicht", "Halte Nachmittags-Nickerchen unter 20 Minuten", "Reduziere die Bildschirmzeit 2 Stunden vor dem Schlafengehen", "Iss ein leichtes Abendessen"],
+      "traits": [
+        "Stabiles Schlafmuster",
+        "Spitzenproduktivität am Vormittag",
+        "Sozial und teamfreundlich",
+        "Bevorzugt regelmäßige Routinen",
+        "Ausgeglichene Energielevel"
+      ],
+      "sleepTips": [
+        "Gehe jeden Tag zur gleichen Zeit ins Bett und stehe auf",
+        "Nimm 15 Minuten Morgensonnenlicht",
+        "Halte Nachmittags-Nickerchen unter 20 Minuten",
+        "Reduziere die Bildschirmzeit 2 Stunden vor dem Schlafengehen",
+        "Iss ein leichtes Abendessen"
+      ],
       "idealSchedule": {
         "wake": "7:00 – Aufstehen",
         "peak": "10:00 – 14:00 – Tiefenarbeit",
@@ -83,8 +95,20 @@
       "emoji": "🦁",
       "description": "Du bist der König der Morgenstunden! Voller Energie seit der Morgendämmerung, erreichst du die Spitzenproduktivität vor dem Mittag. Zielorientiert und optimistisch, du bist ein geborener Anführer.",
       "pct": "15",
-      "traits": ["Frühaufsteher, Morgenmensch", "Spitzenproduktivität vor Mittag", "Diszipliniert und zielorientiert", "Optimistischer Führungstyp", "Wird abends früh müde"],
-      "sleepTips": ["Vermeide helle Lichter nach 21 Uhr", "Kein Koffein nach dem Mittag", "Baue eine bewusste Morgenroutine auf", "Zwinge dich nicht zu Nacht-Sozialisierung", "Halte die Schlafzeiten auch am Wochenende konsistent"],
+      "traits": [
+        "Frühaufsteher, Morgenmensch",
+        "Spitzenproduktivität vor Mittag",
+        "Diszipliniert und zielorientiert",
+        "Optimistischer Führungstyp",
+        "Wird abends früh müde"
+      ],
+      "sleepTips": [
+        "Vermeide helle Lichter nach 21 Uhr",
+        "Kein Koffein nach dem Mittag",
+        "Baue eine bewusste Morgenroutine auf",
+        "Zwinge dich nicht zu Nacht-Sozialisierung",
+        "Halte die Schlafzeiten auch am Wochenende konsistent"
+      ],
       "idealSchedule": {
         "wake": "5:30 – Aufstehen",
         "peak": "6:00 – 12:00 – Tiefenarbeit",
@@ -98,8 +122,20 @@
       "emoji": "🐺",
       "description": "Du bist eine kreative Nachteule, die nach Sonnenuntergang zum Leben erwacht! Deine Energie und Kreativität erreichen abends ihren Höhepunkt. Du denkst außerhalb der Box.",
       "pct": "15",
-      "traits": ["Energieschub am Abend/Nacht", "Hochkreativ und intuitiv", "Unkonventioneller Denker", "Morgen sind schwierig", "Emotional und introspektiv"],
-      "sleepTips": ["Morgens helles Licht bekommen", "Versuche vor Mitternacht im Bett zu sein", "Leichter Spaziergang nach dem Abendessen", "Meditation oder Lesen vor dem Schlafen", "Kalte Dusche am Morgen zum Aufwachen"],
+      "traits": [
+        "Energieschub am Abend/Nacht",
+        "Hochkreativ und intuitiv",
+        "Unkonventioneller Denker",
+        "Morgen sind schwierig",
+        "Emotional und introspektiv"
+      ],
+      "sleepTips": [
+        "Morgens helles Licht bekommen",
+        "Versuche vor Mitternacht im Bett zu sein",
+        "Leichter Spaziergang nach dem Abendessen",
+        "Meditation oder Lesen vor dem Schlafen",
+        "Kalte Dusche am Morgen zum Aufwachen"
+      ],
       "idealSchedule": {
         "wake": "7:30 – Aufstehen",
         "peak": "17:00 – 0:00 – Tiefenarbeit",
@@ -113,8 +149,20 @@
       "emoji": "🐬",
       "description": "Du bist ein leichter Schläfer mit einem brillanten Verstand. Von Natur aus Perfektionist, dein Gehirn ist immer aktiv. Dein Schlaf mag unregelmäßig sein, aber wenn du fokussiert bist, erzielst du außergewöhnliche Ergebnisse.",
       "pct": "10",
-      "traits": ["Leichter, empfindlicher Schläfer", "Hohe Intelligenz und Analytik", "Perfektionistische Tendenzen", "Unregelmäßige Schlafmuster", "Denkt oft zu viel nach und sorgt sich"],
-      "sleepTips": ["Schreibe ein Sorgen-Tagebuch vor dem Schlafen", "Baue eine konsistente Schlafenszeit-Routine auf", "Halte das Schlafzimmer kühl und dunkel", "Nutze weißes Rauschen oder ASMR", "Begrenze Koffein nur auf den Morgen"],
+      "traits": [
+        "Leichter, empfindlicher Schläfer",
+        "Hohe Intelligenz und Analytik",
+        "Perfektionistische Tendenzen",
+        "Unregelmäßige Schlafmuster",
+        "Denkt oft zu viel nach und sorgt sich"
+      ],
+      "sleepTips": [
+        "Schreibe ein Sorgen-Tagebuch vor dem Schlafen",
+        "Baue eine konsistente Schlafenszeit-Routine auf",
+        "Halte das Schlafzimmer kühl und dunkel",
+        "Nutze weißes Rauschen oder ASMR",
+        "Begrenze Koffein nur auf den Morgen"
+      ],
       "idealSchedule": {
         "wake": "6:30 – Aufstehen",
         "peak": "10:00 – 12:00 – Tiefenarbeit",
@@ -132,9 +180,17 @@
     "result": "Mein Schlaftier: {animal}{emoji}"
   },
   "result": {
-    "retry": "Nochmal versuchen"
+    "retry": "Nochmal versuchen",
+    "moreTests": "Weitere Tests entdecken",
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer sind dieses Schlaftier"
   },
   "theme": {
     "toggle": "Thema wechseln"
+  },
+  "related": {
+    "animalPersonality": "Tierpersönlichkeit",
+    "stressType": "Stresstyp",
+    "hspTest": "HSP-Test",
+    "brainType": "Gehirntyp"
   }
 }

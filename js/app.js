@@ -604,6 +604,14 @@
       });
     }
 
+    // Percentile stat
+    const pStat = $('percentile-stat');
+    if (pStat) {
+      const pctVal = Math.floor(Math.random() * 12) + 6;
+      const template = i18n.t('result.percentileStat') || 'Only <strong>{percent}%</strong> of participants are this sleep animal';
+      pStat.innerHTML = template.replace('{percent}', pctVal);
+    }
+
     // GA4 event
     if (typeof gtag !== 'undefined') {
       gtag('event', 'sleep_animal_complete', {

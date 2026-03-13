@@ -68,8 +68,20 @@
       "emoji": "🐻",
       "description": "Vous suivez naturellement le cycle solaire. Avec un rythme stable et cohérent, vous êtes le plus productif en milieu de matinée. Social, fiable et excellent joueur d'équipe.",
       "pct": "55",
-      "traits": ["Modèle de sommeil stable", "Productivité maximale en matinée", "Social et bon en équipe", "Préfère les routines régulières", "Niveaux d'énergie équilibrés"],
-      "sleepTips": ["Couchez-vous et levez-vous à la même heure chaque jour", "Prenez 15 minutes de soleil matinal", "Limitez les siestes à moins de 20 minutes", "Réduisez le temps d'écran 2 heures avant le coucher", "Dînez léger"],
+      "traits": [
+        "Modèle de sommeil stable",
+        "Productivité maximale en matinée",
+        "Social et bon en équipe",
+        "Préfère les routines régulières",
+        "Niveaux d'énergie équilibrés"
+      ],
+      "sleepTips": [
+        "Couchez-vous et levez-vous à la même heure chaque jour",
+        "Prenez 15 minutes de soleil matinal",
+        "Limitez les siestes à moins de 20 minutes",
+        "Réduisez le temps d'écran 2 heures avant le coucher",
+        "Dînez léger"
+      ],
       "idealSchedule": {
         "wake": "7h00 – Réveil",
         "peak": "10h00 – 14h00 – Travail profond",
@@ -83,8 +95,20 @@
       "emoji": "🦁",
       "description": "Vous êtes le roi du matin ! Plein d'énergie dès l'aube, vous atteignez votre productivité maximale avant midi. Orienté vers les objectifs et optimiste, vous êtes un leader naturel.",
       "pct": "15",
-      "traits": ["Lève-tôt, personne du matin", "Productivité maximale avant midi", "Discipliné et orienté objectifs", "Type leader optimiste", "Fatigué tôt le soir"],
-      "sleepTips": ["Évitez les lumières vives après 21h", "Pas de caféine après midi", "Construisez une routine matinale consciente", "Ne forcez pas les sorties nocturnes", "Gardez des horaires de sommeil cohérents le week-end"],
+      "traits": [
+        "Lève-tôt, personne du matin",
+        "Productivité maximale avant midi",
+        "Discipliné et orienté objectifs",
+        "Type leader optimiste",
+        "Fatigué tôt le soir"
+      ],
+      "sleepTips": [
+        "Évitez les lumières vives après 21h",
+        "Pas de caféine après midi",
+        "Construisez une routine matinale consciente",
+        "Ne forcez pas les sorties nocturnes",
+        "Gardez des horaires de sommeil cohérents le week-end"
+      ],
       "idealSchedule": {
         "wake": "5h30 – Réveil",
         "peak": "6h00 – 12h00 – Travail profond",
@@ -98,8 +122,20 @@
       "emoji": "🐺",
       "description": "Vous êtes un hibou nocturne créatif qui s'anime après le coucher du soleil ! Votre énergie et créativité atteignent leur pic le soir. Vous pensez en dehors des sentiers battus.",
       "pct": "15",
-      "traits": ["Poussée d'énergie en soirée", "Très créatif et intuitif", "Penseur non conventionnel", "Les matins sont difficiles", "Émotionnel et introspectif"],
-      "sleepTips": ["Exposez-vous à la lumière vive le matin", "Essayez d'être au lit avant minuit", "Faites une promenade légère après le dîner", "Méditez ou lisez avant de dormir", "Douche froide le matin pour se réveiller"],
+      "traits": [
+        "Poussée d'énergie en soirée",
+        "Très créatif et intuitif",
+        "Penseur non conventionnel",
+        "Les matins sont difficiles",
+        "Émotionnel et introspectif"
+      ],
+      "sleepTips": [
+        "Exposez-vous à la lumière vive le matin",
+        "Essayez d'être au lit avant minuit",
+        "Faites une promenade légère après le dîner",
+        "Méditez ou lisez avant de dormir",
+        "Douche froide le matin pour se réveiller"
+      ],
       "idealSchedule": {
         "wake": "7h30 – Réveil",
         "peak": "17h00 – 0h00 – Travail profond",
@@ -113,8 +149,20 @@
       "emoji": "🐬",
       "description": "Vous avez un sommeil léger et un esprit brillant. Perfectionniste par nature, votre cerveau est toujours en activité. Votre sommeil peut être irrégulier, mais quand vous êtes concentré, vous produisez des résultats extraordinaires.",
       "pct": "10",
-      "traits": ["Sommeil léger et sensible", "Haute intelligence et analyse", "Tendances perfectionnistes", "Modèles de sommeil irréguliers", "Pense trop et s'inquiète souvent"],
-      "sleepTips": ["Écrivez un journal d'inquiétudes avant de dormir", "Construisez une routine de coucher cohérente", "Gardez la chambre fraîche et sombre", "Utilisez du bruit blanc ou ASMR", "Limitez la caféine aux matins seulement"],
+      "traits": [
+        "Sommeil léger et sensible",
+        "Haute intelligence et analyse",
+        "Tendances perfectionnistes",
+        "Modèles de sommeil irréguliers",
+        "Pense trop et s'inquiète souvent"
+      ],
+      "sleepTips": [
+        "Écrivez un journal d'inquiétudes avant de dormir",
+        "Construisez une routine de coucher cohérente",
+        "Gardez la chambre fraîche et sombre",
+        "Utilisez du bruit blanc ou ASMR",
+        "Limitez la caféine aux matins seulement"
+      ],
       "idealSchedule": {
         "wake": "6h30 – Réveil",
         "peak": "10h00 – 12h00 – Travail profond",
@@ -132,9 +180,17 @@
     "result": "Mon animal du sommeil : {animal}{emoji}"
   },
   "result": {
-    "retry": "Réessayer"
+    "retry": "Réessayer",
+    "moreTests": "Découvrir plus de tests",
+    "percentileStat": "Seulement <strong>{percent}%</strong> des participants sont cet animal du sommeil"
   },
   "theme": {
     "toggle": "Changer de thème"
+  },
+  "related": {
+    "animalPersonality": "Personnalité animale",
+    "stressType": "Type de stress",
+    "hspTest": "Test HSP",
+    "brainType": "Type de cerveau"
   }
 }

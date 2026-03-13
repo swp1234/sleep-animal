@@ -68,8 +68,20 @@
       "emoji": "🐻",
       "description": "Kamu secara alami mengikuti siklus matahari. Dengan ritme yang stabil dan konsisten, kamu paling produktif di tengah pagi. Sosial, dapat diandalkan, dan pemain tim yang hebat.",
       "pct": "55",
-      "traits": ["Pola tidur stabil", "Produktivitas puncak di tengah pagi", "Sosial dan ramah tim", "Suka rutinitas teratur", "Tingkat energi seimbang"],
-      "sleepTips": ["Tidur dan bangun di waktu yang sama setiap hari", "Dapatkan 15 menit sinar matahari pagi", "Batasi tidur siang di bawah 20 menit", "Kurangi waktu layar 2 jam sebelum tidur", "Makan malam ringan"],
+      "traits": [
+        "Pola tidur stabil",
+        "Produktivitas puncak di tengah pagi",
+        "Sosial dan ramah tim",
+        "Suka rutinitas teratur",
+        "Tingkat energi seimbang"
+      ],
+      "sleepTips": [
+        "Tidur dan bangun di waktu yang sama setiap hari",
+        "Dapatkan 15 menit sinar matahari pagi",
+        "Batasi tidur siang di bawah 20 menit",
+        "Kurangi waktu layar 2 jam sebelum tidur",
+        "Makan malam ringan"
+      ],
       "idealSchedule": {
         "wake": "7:00 – Bangun",
         "peak": "10:00 – 14:00 – Kerja mendalam",
@@ -83,8 +95,20 @@
       "emoji": "🦁",
       "description": "Kamu raja pagi! Penuh energi sejak fajar, produktivitas puncak sebelum siang. Berorientasi tujuan dan optimis, kamu pemimpin alami.",
       "pct": "15",
-      "traits": ["Bangun pagi, orang pagi", "Produktivitas puncak sebelum siang", "Disiplin dan berorientasi tujuan", "Tipe pemimpin optimis", "Cepat lelah di malam hari"],
-      "sleepTips": ["Hindari cahaya terang setelah jam 9 malam", "Tanpa kafein setelah siang", "Bangun rutinitas pagi yang sadar", "Jangan memaksakan sosialisasi malam", "Jaga waktu tidur konsisten di akhir pekan"],
+      "traits": [
+        "Bangun pagi, orang pagi",
+        "Produktivitas puncak sebelum siang",
+        "Disiplin dan berorientasi tujuan",
+        "Tipe pemimpin optimis",
+        "Cepat lelah di malam hari"
+      ],
+      "sleepTips": [
+        "Hindari cahaya terang setelah jam 9 malam",
+        "Tanpa kafein setelah siang",
+        "Bangun rutinitas pagi yang sadar",
+        "Jangan memaksakan sosialisasi malam",
+        "Jaga waktu tidur konsisten di akhir pekan"
+      ],
       "idealSchedule": {
         "wake": "5:30 – Bangun",
         "peak": "6:00 – 12:00 – Kerja mendalam",
@@ -98,8 +122,20 @@
       "emoji": "🐺",
       "description": "Kamu burung hantu malam kreatif yang hidup setelah matahari terbenam! Energi dan kreativitasmu puncak di malam hari. Kamu berpikir di luar kotak.",
       "pct": "15",
-      "traits": ["Lonjakan energi malam", "Sangat kreatif dan intuitif", "Pemikir tidak konvensional", "Pagi hari sulit", "Emosional dan introspektif"],
-      "sleepTips": ["Dapatkan paparan cahaya terang di pagi hari", "Coba tidur sebelum tengah malam", "Jalan ringan setelah makan malam", "Meditasi atau baca sebelum tidur", "Mandi air dingin di pagi hari"],
+      "traits": [
+        "Lonjakan energi malam",
+        "Sangat kreatif dan intuitif",
+        "Pemikir tidak konvensional",
+        "Pagi hari sulit",
+        "Emosional dan introspektif"
+      ],
+      "sleepTips": [
+        "Dapatkan paparan cahaya terang di pagi hari",
+        "Coba tidur sebelum tengah malam",
+        "Jalan ringan setelah makan malam",
+        "Meditasi atau baca sebelum tidur",
+        "Mandi air dingin di pagi hari"
+      ],
       "idealSchedule": {
         "wake": "7:30 – Bangun",
         "peak": "17:00 – 0:00 – Kerja mendalam",
@@ -113,8 +149,20 @@
       "emoji": "🐬",
       "description": "Kamu punya tidur ringan dan pikiran cemerlang. Perfeksionis secara alami, otakmu selalu aktif. Tidurmu mungkin tidak teratur, tapi saat fokus, hasilnya luar biasa.",
       "pct": "10",
-      "traits": ["Tidur ringan dan sensitif", "Kecerdasan dan analisis tinggi", "Kecenderungan perfeksionis", "Pola tidur tidak teratur", "Sering overthinking dan khawatir"],
-      "sleepTips": ["Tulis jurnal kekhawatiran sebelum tidur", "Bangun rutinitas tidur yang konsisten", "Jaga kamar tidur sejuk dan gelap", "Gunakan white noise atau ASMR", "Batasi kafein hanya di pagi hari"],
+      "traits": [
+        "Tidur ringan dan sensitif",
+        "Kecerdasan dan analisis tinggi",
+        "Kecenderungan perfeksionis",
+        "Pola tidur tidak teratur",
+        "Sering overthinking dan khawatir"
+      ],
+      "sleepTips": [
+        "Tulis jurnal kekhawatiran sebelum tidur",
+        "Bangun rutinitas tidur yang konsisten",
+        "Jaga kamar tidur sejuk dan gelap",
+        "Gunakan white noise atau ASMR",
+        "Batasi kafein hanya di pagi hari"
+      ],
       "idealSchedule": {
         "wake": "6:30 – Bangun",
         "peak": "10:00 – 12:00 – Kerja mendalam",
@@ -132,9 +180,17 @@
     "result": "Hewan Tidurku: {animal}{emoji}"
   },
   "result": {
-    "retry": "Coba Lagi"
+    "retry": "Coba Lagi",
+    "moreTests": "Jelajahi tes lainnya",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang merupakan hewan tidur ini"
   },
   "theme": {
     "toggle": "Ganti tema"
+  },
+  "related": {
+    "animalPersonality": "Kepribadian Hewan",
+    "stressType": "Tipe Stres",
+    "hspTest": "Tes HSP",
+    "brainType": "Tipe Otak"
   }
 }

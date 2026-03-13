@@ -68,8 +68,20 @@
       "emoji": "🐻",
       "description": "Doğal olarak güneş döngüsünü takip edersiniz. İstikrarlı ve tutarlı bir ritimle, sabah ortasında en üretken olursunuz. Sosyal, güvenilir ve harika bir takım oyuncususunuz.",
       "pct": "55",
-      "traits": ["İstikrarlı uyku düzeni", "Sabah ortasında zirve üretkenlik", "Sosyal ve takım dostu", "Düzenli rutinleri tercih eder", "Dengeli enerji seviyeleri"],
-      "sleepTips": ["Her gün aynı saatte yatın ve kalkın", "Sabah 15 dakika güneş ışığı alın", "Öğleden sonra şekerlemeleri 20 dakikanın altında tutun", "Yatmadan 2 saat önce ekran süresini azaltın", "Hafif akşam yemeği yiyin"],
+      "traits": [
+        "İstikrarlı uyku düzeni",
+        "Sabah ortasında zirve üretkenlik",
+        "Sosyal ve takım dostu",
+        "Düzenli rutinleri tercih eder",
+        "Dengeli enerji seviyeleri"
+      ],
+      "sleepTips": [
+        "Her gün aynı saatte yatın ve kalkın",
+        "Sabah 15 dakika güneş ışığı alın",
+        "Öğleden sonra şekerlemeleri 20 dakikanın altında tutun",
+        "Yatmadan 2 saat önce ekran süresini azaltın",
+        "Hafif akşam yemeği yiyin"
+      ],
       "idealSchedule": {
         "wake": "07:00 – Uyanma",
         "peak": "10:00 – 14:00 – Derin çalışma",
@@ -83,8 +95,20 @@
       "emoji": "🦁",
       "description": "Sabahların kralısınız! Şafaktan itibaren enerji dolu, öğleden önce zirve üretkenliğe ulaşırsınız. Hedef odaklı ve iyimser, doğal bir lidersiniz.",
       "pct": "15",
-      "traits": ["Erken kalkan, sabah insanı", "Öğleden önce zirve üretkenlik", "Disiplinli ve hedef odaklı", "İyimser lider tipi", "Akşam erken yorulur"],
-      "sleepTips": ["Akşam 9'dan sonra parlak ışıklardan kaçının", "Öğleden sonra kafein almayın", "Bilinçli bir sabah rutini oluşturun", "Gece sosyalleşmeyi zorlamayın", "Hafta sonları da uyku saatlerini tutarlı tutun"],
+      "traits": [
+        "Erken kalkan, sabah insanı",
+        "Öğleden önce zirve üretkenlik",
+        "Disiplinli ve hedef odaklı",
+        "İyimser lider tipi",
+        "Akşam erken yorulur"
+      ],
+      "sleepTips": [
+        "Akşam 9'dan sonra parlak ışıklardan kaçının",
+        "Öğleden sonra kafein almayın",
+        "Bilinçli bir sabah rutini oluşturun",
+        "Gece sosyalleşmeyi zorlamayın",
+        "Hafta sonları da uyku saatlerini tutarlı tutun"
+      ],
       "idealSchedule": {
         "wake": "05:30 – Uyanma",
         "peak": "06:00 – 12:00 – Derin çalışma",
@@ -98,8 +122,20 @@
       "emoji": "🐺",
       "description": "Gün batımından sonra canlanan yaratıcı bir gece kuşusunuz! Enerjiniz ve yaratıcılığınız akşam saatlerinde zirve yapar. Kalıpların dışında düşünürsünüz.",
       "pct": "15",
-      "traits": ["Akşam-gece enerji patlaması", "Yüksek yaratıcılık ve sezgi", "Alışılmadık düşünür", "Sabahlar zor", "Duygusal ve içe dönük"],
-      "sleepTips": ["Sabah parlak ışığa maruz kalın", "Gece yarısından önce yatmaya çalışın", "Akşam yemeğinden sonra hafif yürüyüş yapın", "Uyumadan önce meditasyon veya kitap okuyun", "Sabah soğuk duş ile uyanın"],
+      "traits": [
+        "Akşam-gece enerji patlaması",
+        "Yüksek yaratıcılık ve sezgi",
+        "Alışılmadık düşünür",
+        "Sabahlar zor",
+        "Duygusal ve içe dönük"
+      ],
+      "sleepTips": [
+        "Sabah parlak ışığa maruz kalın",
+        "Gece yarısından önce yatmaya çalışın",
+        "Akşam yemeğinden sonra hafif yürüyüş yapın",
+        "Uyumadan önce meditasyon veya kitap okuyun",
+        "Sabah soğuk duş ile uyanın"
+      ],
       "idealSchedule": {
         "wake": "07:30 – Uyanma",
         "peak": "17:00 – 00:00 – Derin çalışma",
@@ -113,8 +149,20 @@
       "emoji": "🐬",
       "description": "Hafif uyuyan ve parlak bir zekaya sahipsiniz. Doğası gereği mükemmeliyetçi, beyniniz her zaman aktif. Uykunuz düzensiz olabilir, ama odaklandığınızda olağanüstü sonuçlar üretirsiniz.",
       "pct": "10",
-      "traits": ["Hafif, hassas uyuyan", "Yüksek zeka ve analitik", "Mükemmeliyetçi eğilimler", "Düzensiz uyku düzeni", "Fazla düşünme ve endişe"],
-      "sleepTips": ["Yatmadan önce endişe günlüğü yazın", "Tutarlı bir uyku rutini oluşturun", "Yatak odasını serin ve karanlık tutun", "Beyaz gürültü veya ASMR kullanın", "Kafeini sadece sabahla sınırlandırın"],
+      "traits": [
+        "Hafif, hassas uyuyan",
+        "Yüksek zeka ve analitik",
+        "Mükemmeliyetçi eğilimler",
+        "Düzensiz uyku düzeni",
+        "Fazla düşünme ve endişe"
+      ],
+      "sleepTips": [
+        "Yatmadan önce endişe günlüğü yazın",
+        "Tutarlı bir uyku rutini oluşturun",
+        "Yatak odasını serin ve karanlık tutun",
+        "Beyaz gürültü veya ASMR kullanın",
+        "Kafeini sadece sabahla sınırlandırın"
+      ],
       "idealSchedule": {
         "wake": "06:30 – Uyanma",
         "peak": "10:00 – 12:00 – Derin çalışma",
@@ -132,9 +180,17 @@
     "result": "Uyku Hayvanım: {animal}{emoji}"
   },
   "result": {
-    "retry": "Tekrar Dene"
+    "retry": "Tekrar Dene",
+    "moreTests": "Daha fazla test keşfet",
+    "percentileStat": "Katılımcıların sadece <strong>{percent}%</strong>'i bu uyku hayvanıdır"
   },
   "theme": {
     "toggle": "Tema değiştir"
+  },
+  "related": {
+    "animalPersonality": "Hayvan Kişiliği",
+    "stressType": "Stres Tipi",
+    "hspTest": "HSP Testi",
+    "brainType": "Beyin Tipi"
   }
 }

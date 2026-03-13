@@ -68,8 +68,20 @@
       "emoji": "🐻",
       "description": "Você segue naturalmente o ciclo solar. Com um ritmo estável e consistente, você é mais produtivo no meio da manhã. Social, confiável e ótimo jogador de equipe.",
       "pct": "55",
-      "traits": ["Padrão de sono estável", "Pico de produtividade no meio da manhã", "Social e amigável em equipe", "Prefere rotinas regulares", "Níveis de energia equilibrados"],
-      "sleepTips": ["Durma e acorde no mesmo horário todos os dias", "Tome 15 minutos de sol matinal", "Mantenha cochilos à tarde em menos de 20 minutos", "Reduza o tempo de tela 2 horas antes de dormir", "Jante leve"],
+      "traits": [
+        "Padrão de sono estável",
+        "Pico de produtividade no meio da manhã",
+        "Social e amigável em equipe",
+        "Prefere rotinas regulares",
+        "Níveis de energia equilibrados"
+      ],
+      "sleepTips": [
+        "Durma e acorde no mesmo horário todos os dias",
+        "Tome 15 minutos de sol matinal",
+        "Mantenha cochilos à tarde em menos de 20 minutos",
+        "Reduza o tempo de tela 2 horas antes de dormir",
+        "Jante leve"
+      ],
       "idealSchedule": {
         "wake": "7:00 – Acordar",
         "peak": "10:00 – 14:00 – Trabalho profundo",
@@ -83,8 +95,20 @@
       "emoji": "🦁",
       "description": "Você é o rei das manhãs! Cheio de energia desde o amanhecer, atinge o pico de produtividade antes do meio-dia. Orientado a metas e otimista, você é um líder natural.",
       "pct": "15",
-      "traits": ["Madrugador, pessoa matinal", "Pico de produtividade antes do meio-dia", "Disciplinado e orientado a metas", "Tipo líder otimista", "Cansa cedo à noite"],
-      "sleepTips": ["Evite luzes fortes após as 21h", "Sem cafeína após o meio-dia", "Construa uma rotina matinal consciente", "Não force socializações noturnas", "Mantenha horários de sono consistentes nos fins de semana"],
+      "traits": [
+        "Madrugador, pessoa matinal",
+        "Pico de produtividade antes do meio-dia",
+        "Disciplinado e orientado a metas",
+        "Tipo líder otimista",
+        "Cansa cedo à noite"
+      ],
+      "sleepTips": [
+        "Evite luzes fortes após as 21h",
+        "Sem cafeína após o meio-dia",
+        "Construa uma rotina matinal consciente",
+        "Não force socializações noturnas",
+        "Mantenha horários de sono consistentes nos fins de semana"
+      ],
       "idealSchedule": {
         "wake": "5:30 – Acordar",
         "peak": "6:00 – 12:00 – Trabalho profundo",
@@ -98,8 +122,20 @@
       "emoji": "🐺",
       "description": "Você é uma coruja noturna criativa que ganha vida após o pôr do sol! Sua energia e criatividade atingem o pico à noite. Você pensa fora da caixa e segue seu próprio ritmo.",
       "pct": "15",
-      "traits": ["Surto de energia noturna", "Altamente criativo e intuitivo", "Pensador não convencional", "Manhãs são difíceis", "Emocional e introspectivo"],
-      "sleepTips": ["Receba luz forte pela manhã", "Tente estar na cama antes da meia-noite", "Faça uma caminhada leve após o jantar", "Medite ou leia antes de dormir", "Banho frio pela manhã para acordar"],
+      "traits": [
+        "Surto de energia noturna",
+        "Altamente criativo e intuitivo",
+        "Pensador não convencional",
+        "Manhãs são difíceis",
+        "Emocional e introspectivo"
+      ],
+      "sleepTips": [
+        "Receba luz forte pela manhã",
+        "Tente estar na cama antes da meia-noite",
+        "Faça uma caminhada leve após o jantar",
+        "Medite ou leia antes de dormir",
+        "Banho frio pela manhã para acordar"
+      ],
       "idealSchedule": {
         "wake": "7:30 – Acordar",
         "peak": "17:00 – 0:00 – Trabalho profundo",
@@ -113,8 +149,20 @@
       "emoji": "🐬",
       "description": "Você tem sono leve e uma mente brilhante. Perfeccionista por natureza, seu cérebro está sempre ativo. Seu sono pode ser irregular, mas quando foca, produz resultados extraordinários.",
       "pct": "10",
-      "traits": ["Sono leve e sensível", "Alta inteligência e análise", "Tendências perfeccionistas", "Padrões de sono irregulares", "Pensa demais e se preocupa frequentemente"],
-      "sleepTips": ["Escreva um diário de preocupações antes de dormir", "Construa uma rotina consistente para dormir", "Mantenha o quarto fresco e escuro", "Use ruído branco ou ASMR", "Limite a cafeína apenas às manhãs"],
+      "traits": [
+        "Sono leve e sensível",
+        "Alta inteligência e análise",
+        "Tendências perfeccionistas",
+        "Padrões de sono irregulares",
+        "Pensa demais e se preocupa frequentemente"
+      ],
+      "sleepTips": [
+        "Escreva um diário de preocupações antes de dormir",
+        "Construa uma rotina consistente para dormir",
+        "Mantenha o quarto fresco e escuro",
+        "Use ruído branco ou ASMR",
+        "Limite a cafeína apenas às manhãs"
+      ],
       "idealSchedule": {
         "wake": "6:30 – Acordar",
         "peak": "10:00 – 12:00 – Trabalho profundo",
@@ -132,9 +180,17 @@
     "result": "Meu animal do sono: {animal}{emoji}"
   },
   "result": {
-    "retry": "Tentar novamente"
+    "retry": "Tentar novamente",
+    "moreTests": "Explorar mais testes",
+    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes são este animal do sono"
   },
   "theme": {
     "toggle": "Alternar tema"
+  },
+  "related": {
+    "animalPersonality": "Personalidade animal",
+    "stressType": "Tipo de estresse",
+    "hspTest": "Teste HSP",
+    "brainType": "Tipo de cérebro"
   }
 }

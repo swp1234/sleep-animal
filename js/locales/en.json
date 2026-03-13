@@ -68,8 +68,20 @@
       "emoji": "🐻",
       "description": "You follow the solar cycle naturally. With a steady and consistent rhythm, you're most productive mid-morning. Social, reliable, and a great team player.",
       "pct": "55",
-      "traits": ["Stable sleep pattern", "Peak productivity mid-morning", "Social and team-friendly", "Prefers regular routines", "Balanced energy levels"],
-      "sleepTips": ["Go to bed and wake up at the same time daily", "Get 15 minutes of morning sunlight", "Keep afternoon naps under 20 minutes", "Reduce screen time 2 hours before bed", "Eat a light dinner"],
+      "traits": [
+        "Stable sleep pattern",
+        "Peak productivity mid-morning",
+        "Social and team-friendly",
+        "Prefers regular routines",
+        "Balanced energy levels"
+      ],
+      "sleepTips": [
+        "Go to bed and wake up at the same time daily",
+        "Get 15 minutes of morning sunlight",
+        "Keep afternoon naps under 20 minutes",
+        "Reduce screen time 2 hours before bed",
+        "Eat a light dinner"
+      ],
       "idealSchedule": {
         "wake": "7:00 AM – Wake up",
         "peak": "10:00 AM – 2:00 PM – Deep work",
@@ -83,8 +95,20 @@
       "emoji": "🦁",
       "description": "You're the king of mornings! Bursting with energy from dawn, you hit peak productivity before noon. Goal-oriented and optimistic, you're a natural leader.",
       "pct": "15",
-      "traits": ["Early riser, morning person", "Peak productivity before noon", "Disciplined and goal-oriented", "Optimistic leader type", "Gets tired early in evening"],
-      "sleepTips": ["Avoid bright lights after 9 PM", "No caffeine after noon", "Build a conscious morning routine", "Don't force late-night socializing", "Keep weekend sleep times consistent"],
+      "traits": [
+        "Early riser, morning person",
+        "Peak productivity before noon",
+        "Disciplined and goal-oriented",
+        "Optimistic leader type",
+        "Gets tired early in evening"
+      ],
+      "sleepTips": [
+        "Avoid bright lights after 9 PM",
+        "No caffeine after noon",
+        "Build a conscious morning routine",
+        "Don't force late-night socializing",
+        "Keep weekend sleep times consistent"
+      ],
       "idealSchedule": {
         "wake": "5:30 AM – Wake up",
         "peak": "6:00 AM – 12:00 PM – Deep work",
@@ -98,8 +122,20 @@
       "emoji": "🐺",
       "description": "You're a creative night owl who comes alive after sunset! Your energy and creativity peak in the evening. You think outside the box and march to your own beat.",
       "pct": "15",
-      "traits": ["Evening-to-night energy surge", "Highly creative and intuitive", "Unconventional thinker", "Mornings are difficult", "Emotional and introspective"],
-      "sleepTips": ["Get bright light exposure in the morning", "Try to be in bed by midnight", "Take a light walk after dinner", "Meditate or read before sleep", "Cold shower in the morning to wake up"],
+      "traits": [
+        "Evening-to-night energy surge",
+        "Highly creative and intuitive",
+        "Unconventional thinker",
+        "Mornings are difficult",
+        "Emotional and introspective"
+      ],
+      "sleepTips": [
+        "Get bright light exposure in the morning",
+        "Try to be in bed by midnight",
+        "Take a light walk after dinner",
+        "Meditate or read before sleep",
+        "Cold shower in the morning to wake up"
+      ],
       "idealSchedule": {
         "wake": "7:30 AM – Wake up",
         "peak": "5:00 PM – 12:00 AM – Deep work",
@@ -113,8 +149,20 @@
       "emoji": "🐬",
       "description": "You're a light sleeper with a brilliant mind. Perfectionist by nature, your brain is always buzzing. Your sleep may be irregular, but when you lock in, you produce extraordinary results.",
       "pct": "10",
-      "traits": ["Light, sensitive sleeper", "High intelligence and analytical", "Perfectionist tendencies", "Irregular sleep patterns", "Overthinks and worries often"],
-      "sleepTips": ["Write a worry journal before bed", "Build a consistent bedtime routine", "Keep bedroom cool and dark", "Use white noise or ASMR", "Limit caffeine to mornings only"],
+      "traits": [
+        "Light, sensitive sleeper",
+        "High intelligence and analytical",
+        "Perfectionist tendencies",
+        "Irregular sleep patterns",
+        "Overthinks and worries often"
+      ],
+      "sleepTips": [
+        "Write a worry journal before bed",
+        "Build a consistent bedtime routine",
+        "Keep bedroom cool and dark",
+        "Use white noise or ASMR",
+        "Limit caffeine to mornings only"
+      ],
       "idealSchedule": {
         "wake": "6:30 AM – Wake up",
         "peak": "10:00 AM – 12:00 PM – Deep work",
@@ -132,9 +180,17 @@
     "result": "My Sleep Animal: {animal}{emoji}"
   },
   "result": {
-    "retry": "Try Again"
+    "retry": "Try Again",
+    "moreTests": "Explore More Tests",
+    "percentileStat": "Only <strong>{percent}%</strong> of participants are this sleep animal"
   },
   "theme": {
     "toggle": "Toggle theme"
+  },
+  "related": {
+    "animalPersonality": "Animal Personality",
+    "stressType": "Stress Type",
+    "hspTest": "HSP Test",
+    "brainType": "Brain Type"
   }
 }

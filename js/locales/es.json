@@ -68,8 +68,20 @@
       "emoji": "🐻",
       "description": "Sigues naturalmente el ciclo solar. Con un ritmo estable y consistente, eres más productivo a media mañana. Social, confiable y un gran jugador de equipo.",
       "pct": "55",
-      "traits": ["Patrón de sueño estable", "Máxima productividad a media mañana", "Social y amigable en equipo", "Prefiere rutinas regulares", "Niveles de energía equilibrados"],
-      "sleepTips": ["Acuéstate y levántate a la misma hora cada día", "Recibe 15 minutos de luz solar matutina", "Limita las siestas a menos de 20 minutos", "Reduce el tiempo de pantalla 2 horas antes de dormir", "Cena ligero"],
+      "traits": [
+        "Patrón de sueño estable",
+        "Máxima productividad a media mañana",
+        "Social y amigable en equipo",
+        "Prefiere rutinas regulares",
+        "Niveles de energía equilibrados"
+      ],
+      "sleepTips": [
+        "Acuéstate y levántate a la misma hora cada día",
+        "Recibe 15 minutos de luz solar matutina",
+        "Limita las siestas a menos de 20 minutos",
+        "Reduce el tiempo de pantalla 2 horas antes de dormir",
+        "Cena ligero"
+      ],
       "idealSchedule": {
         "wake": "7:00 AM – Despertar",
         "peak": "10:00 AM – 2:00 PM – Trabajo profundo",
@@ -83,8 +95,20 @@
       "emoji": "🦁",
       "description": "¡Eres el rey de las mañanas! Lleno de energía desde el amanecer, alcanzas tu máxima productividad antes del mediodía. Orientado a metas y optimista, eres un líder natural.",
       "pct": "15",
-      "traits": ["Madrugador, persona matutina", "Máxima productividad antes del mediodía", "Disciplinado y orientado a metas", "Tipo líder optimista", "Se cansa temprano por la noche"],
-      "sleepTips": ["Evita luces brillantes después de las 9 PM", "Sin cafeína después del mediodía", "Construye una rutina matutina consciente", "No fuerces las reuniones nocturnas", "Mantén horarios de sueño consistentes los fines de semana"],
+      "traits": [
+        "Madrugador, persona matutina",
+        "Máxima productividad antes del mediodía",
+        "Disciplinado y orientado a metas",
+        "Tipo líder optimista",
+        "Se cansa temprano por la noche"
+      ],
+      "sleepTips": [
+        "Evita luces brillantes después de las 9 PM",
+        "Sin cafeína después del mediodía",
+        "Construye una rutina matutina consciente",
+        "No fuerces las reuniones nocturnas",
+        "Mantén horarios de sueño consistentes los fines de semana"
+      ],
       "idealSchedule": {
         "wake": "5:30 AM – Despertar",
         "peak": "6:00 AM – 12:00 PM – Trabajo profundo",
@@ -98,8 +122,20 @@
       "emoji": "🐺",
       "description": "¡Eres un búho nocturno creativo que cobra vida después del atardecer! Tu energía y creatividad alcanzan su punto máximo por la noche. Piensas fuera de la caja.",
       "pct": "15",
-      "traits": ["Oleada de energía nocturna", "Altamente creativo e intuitivo", "Pensador no convencional", "Las mañanas son difíciles", "Emocional e introspectivo"],
-      "sleepTips": ["Recibe luz brillante por la mañana", "Intenta acostarte antes de medianoche", "Camina ligeramente después de cenar", "Medita o lee antes de dormir", "Ducha fría por la mañana para despertar"],
+      "traits": [
+        "Oleada de energía nocturna",
+        "Altamente creativo e intuitivo",
+        "Pensador no convencional",
+        "Las mañanas son difíciles",
+        "Emocional e introspectivo"
+      ],
+      "sleepTips": [
+        "Recibe luz brillante por la mañana",
+        "Intenta acostarte antes de medianoche",
+        "Camina ligeramente después de cenar",
+        "Medita o lee antes de dormir",
+        "Ducha fría por la mañana para despertar"
+      ],
       "idealSchedule": {
         "wake": "7:30 AM – Despertar",
         "peak": "5:00 PM – 12:00 AM – Trabajo profundo",
@@ -113,8 +149,20 @@
       "emoji": "🐬",
       "description": "Tienes un sueño ligero y una mente brillante. Perfeccionista por naturaleza, tu cerebro siempre está activo. Tu sueño puede ser irregular, pero cuando te concentras, produces resultados extraordinarios.",
       "pct": "10",
-      "traits": ["Durmiente ligero y sensible", "Alta inteligencia y análisis", "Tendencias perfeccionistas", "Patrones de sueño irregulares", "Piensa demasiado y se preocupa a menudo"],
-      "sleepTips": ["Escribe un diario de preocupaciones antes de dormir", "Construye una rutina consistente para acostarte", "Mantén el dormitorio fresco y oscuro", "Usa ruido blanco o ASMR", "Limita la cafeína solo a las mañanas"],
+      "traits": [
+        "Durmiente ligero y sensible",
+        "Alta inteligencia y análisis",
+        "Tendencias perfeccionistas",
+        "Patrones de sueño irregulares",
+        "Piensa demasiado y se preocupa a menudo"
+      ],
+      "sleepTips": [
+        "Escribe un diario de preocupaciones antes de dormir",
+        "Construye una rutina consistente para acostarte",
+        "Mantén el dormitorio fresco y oscuro",
+        "Usa ruido blanco o ASMR",
+        "Limita la cafeína solo a las mañanas"
+      ],
       "idealSchedule": {
         "wake": "6:30 AM – Despertar",
         "peak": "10:00 AM – 12:00 PM – Trabajo profundo",
@@ -132,9 +180,17 @@
     "result": "Mi animal del sueño: {animal}{emoji}"
   },
   "result": {
-    "retry": "Intentar de nuevo"
+    "retry": "Intentar de nuevo",
+    "moreTests": "Explorar más tests",
+    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes son este animal del sueño"
   },
   "theme": {
     "toggle": "Cambiar tema"
+  },
+  "related": {
+    "animalPersonality": "Personalidad animal",
+    "stressType": "Tipo de estrés",
+    "hspTest": "Test HSP",
+    "brainType": "Tipo de cerebro"
   }
 }
